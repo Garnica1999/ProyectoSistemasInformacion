@@ -18,8 +18,8 @@
 		      direction: '',
 		      scalemode: 3,
 		      pagination: true,
-		      pagination_img_default: 'images/page_default.png',
-		      pagination_img_active: 'images/page_active.png',
+		      pagination_img_default: '<%= asset_path('page_default.png') %>',
+		      pagination_img_active: '<%= asset_path('page_active.png') %>',
 		      start: 0
 		   };
 		   $("#Carousel1").carousel(Carousel1Opts);
@@ -90,7 +90,9 @@
 	<div id="Layer1">
 	    <div id="Layer1_Container">
 	        <div id="wb_Logo">
-	            <a href="./index.html"><img src="images/logo-ucatolica.svg" id="Logo" alt="" class="imagen"></a></div>
+	        	<%= link_to root_path do%>
+	            	<%= image_tag("logo-ucatolica.svg", :alt => "", :id =>"Logo", :alt => "", :class => "imagen")%></div>
+	            <%end%>
 	        <div id="wb_CssMenu1">
 	            <ul role="menubar">
 	                <li class="firstmain"><a role="menuitem" href="#" target="_self" title="Aspirantes">Aspirantes</a>

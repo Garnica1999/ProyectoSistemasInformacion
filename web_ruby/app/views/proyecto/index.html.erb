@@ -23,8 +23,13 @@
             </div>
         </div>
     </div>
+    <div id="Carousel1_back"><a><%= image_tag("left-arrow.png", :alt => "Back")%></a></div>
+    <div id="Carousel1_next"><a><%= image_tag("right-arrow.png", :alt => "Next")%></a></div>
+
+    <!--
     <div id="Carousel1_back"><a><img alt="Back" src="images/left-arrow.png"></a></div>
     <div id="Carousel1_next"><a><img alt="Next" src="images/right-arrow.png"></a></div>
+    -->
 </div>
 <div id="wb_FlexContainer3">
     <div id="FlexContainer3">
@@ -70,7 +75,7 @@
             <div class="col-1">
                 <hr id="Line9">
                 <picture id="wb_Picture1">
-                    <img src="images/slide_3.jpg" id="Picture1" alt="" srcset="">
+                    <%= image_tag("slide_3.jpg", :alt => "", :id =>"Picture1")%>
                 </picture>
                 <hr id="Line10">
             </div>
@@ -111,7 +116,7 @@
                                 </div>
                                 <hr id="Line16">
                                 <div id="wb_Image1">
-                                    <img src="images/fachada_se-2017_06_05_143618.jpg" id="Image1" alt="">
+                                    <%= image_tag("fachada_se-2017_06_05_143618.jpg", :alt => "", :id =>"Image1")%>
                                 </div>
                                 <hr id="Line20">
                                 <div id="wb_Text10" class="TextoNoticia">
@@ -124,7 +129,7 @@
                                 </div>
                                 <hr id="Line18">
                                 <div id="wb_Image2">
-                                    <img src="images/slide_3.jpg" id="Image2" alt="">
+                                    <%= image_tag("slide_3.jpg", :alt => "", :id =>"Image2")%>
                                 </div>
                                 <hr id="Line19">
                                 <div id="wb_Text5" class="TextoNoticia">
@@ -137,7 +142,7 @@
                                 </div>
                                 <hr id="Line17">
                                 <div id="wb_Image3">
-                                    <img src="images/Claustro.jpg" id="Image3" alt="">
+                                    <%= image_tag("Claustro.jpg", :alt => "", :id =>"Image3")%>
                                 </div>
                                 <hr id="Line13">
                                 <div id="wb_Text13" class="TextoNoticia">
