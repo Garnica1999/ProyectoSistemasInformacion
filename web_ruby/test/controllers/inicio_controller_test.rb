@@ -1,8 +1,8 @@
 require 'test_helper'
 
-class ProyectoControllerTest < ActionDispatch::IntegrationTest
+class InicioControllerTest < ActionDispatch::IntegrationTest
   test "should get index" do
-    get proyecto_index_url
+    get inicio_index_url
     assert_response :success
   end
 
