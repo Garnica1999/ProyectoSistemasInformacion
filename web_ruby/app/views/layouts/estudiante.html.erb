@@ -2,15 +2,20 @@
 <html lang="es-co">
     <head>
         <meta charset="utf-8">
-        <title>Login</title>
-        <%= csrf_meta_tags %>
-
-         <%= stylesheet_link_tag 'font-awesome.min', :media => "all" %>
-         <%= stylesheet_link_tag 'inicio', :media => "all" %>
-         <%= stylesheet_link_tag 'horario', :media => "all" %>
-         <%= stylesheet_link_tag 'index-horario', :media => "all" %>
-         <%= stylesheet_link_tag 'jquery-ui.min', :media => "all" %>
-         <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+        <title>Ver materias Disponibles - Monitorias</title>
+        <%= stylesheet_link_tag 'inicio', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/estudiante', :media => "all" %>
+        <%= stylesheet_link_tag 'font-awesome.min', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/index-estudiante', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/login-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'jquery-ui.min.css', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/inscribir-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/ver-horario', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/materias_disponibles', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/login-monitoria', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/inscribir-monitoria', :media => "all" %>
+        <%= stylesheet_link_tag 'estudiante/ver-monitoria', :media => "all" %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
         <script>
             $(document).ready(function ()
             {
@@ -18,47 +23,74 @@
                 {
                     $("#wb_MenuPrincipal input").prop("checked", false);
                 });
-                $("#ButtonEntrarMonitoria").button();
             });
         </script>
-        
     </head>
-    <body><div id="PageHeader" class="LayerPrincipal">
-            <div id="PageHeader_Container">
-                <div id="wb_Logo">
-                  <%= link_to root_path do%>
-                  <%= image_tag("logo-ucatolica.svg", :alt => "", :id =>"Logo", :alt => "", :class => "imagen")%>
-               <%end%>
-                </div>
-                <div id="wb_MenuPrincipal">
-                    <label class="toggle" for="MenuPrincipal-submenu" id="MenuPrincipal-title">Menu<span id="MenuPrincipal-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
-                    <input type="checkbox" id="MenuPrincipal-submenu">
-                    <ul class="MenuPrincipal" id="MenuPrincipal" class="menu" role="menu">
-                        <li><a role="menuitem" href="./../../index.html"><i class="fa fa-home fa-2x">&nbsp;</i><br>Inicio</a></li>
-                        <li>
-                            <label for="MenuPrincipal-submenu-0" class="toggle"><i class="fa fa-child fa-2x">&nbsp;</i>Monitorias<b class="arrow-down"></b></label>
-                            <a role="menuitem" href="#"><i class="fa fa-child fa-2x">&nbsp;</i><br>Monitorias<b class="arrow-down"></b></a>
-                            <input type="checkbox" id="MenuPrincipal-submenu-0">
-                            <ul role="menu">
-                                <li><a role="menuitem" href="./../monitoria/ver.html"><i class="fa fa-desktop fa-2x">&nbsp;</i>Ver&nbsp;Monitorias</a></li>
-                                <li><a role="menuitem" href="./../monitoria/inscribir.html"><i class="fa fa-edit fa-2x">&nbsp;</i>Inscribirse&nbsp;a&nbsp;monitor</a></li>
+    <body>
+        <div id="wb_HeaderEstudiante">
+            <div id="HeaderEstudiante">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_LogoEst">
+                            <%= link_to root_path do%>
+                                    <%= image_tag("logo-ucatolica.svg", :alt => "", :id =>"LogoEst", :class => "imagen")%>
+                            <%end%>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="wb_MenuPrincipal">
+                            <label class="toggle" for="MenuPrincipal-submenu" id="MenuPrincipal-title">Menu<span id="MenuPrincipal-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+                            <input type="checkbox" id="MenuPrincipal-submenu">
+                            <ul class="MenuPrincipal" id="MenuPrincipal" class="menu" role="menu">
+                                <li><a role="menuitem" href="/estudiante/index.html"><i class="fa fa-home fa-2x">&nbsp;</i><br>Inicio</a></li>
+                                <li>
+                                    <label for="MenuPrincipal-submenu-0" class="toggle"><i class="fa fa-child fa-2x">&nbsp;</i>Monitorias<b class="arrow-down"></b></label>
+                                    <a role="menuitem" href="#"><i class="fa fa-child fa-2x">&nbsp;</i><br>Monitorias<b class="arrow-down"></b></a>
+                                    <input type="checkbox" id="MenuPrincipal-submenu-0">
+                                    <ul role="menu">
+                                        <li><a role="menuitem" href="/estudiante/monitoria/ver.html"><i class="fa fa-desktop fa-2x">&nbsp;</i>Ver&nbsp;Monitorias</a></li>
+                                        <li><a role="menuitem" href="/estudiante/monitoria/inscribir.html"><i class="fa fa-edit fa-2x">&nbsp;</i>Inscribirse&nbsp;a&nbsp;monitor</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <label for="MenuPrincipal-submenu-1" class="toggle"><i class="fa fa-address-book-o fa-2x">&nbsp;</i>Horario<b class="arrow-down"></b></label>
+                                    <a role="menuitem" href="#"><i class="fa fa-address-book-o fa-2x">&nbsp;</i><br>Horario<b class="arrow-down"></b></a>
+                                    <input type="checkbox" id="MenuPrincipal-submenu-1">
+                                    <ul role="menu">
+                                        <li><a role="menuitem" href="/estudiante/horario/ver.html"><i class="fa fa-eye fa-2x">&nbsp;</i>Consultar&nbsp;Horario</a></li>
+                                        <li><a role="menuitem" href="/estudiante/horario/inscribir.html" ><i class="fa fa-clock-o fa-2x">&nbsp;</i>Cuadrar&nbsp;Horario</a></li>
+                                    </ul>
+                                </li>
                             </ul>
-                        </li>
-                        <li>
-                            <label for="MenuPrincipal-submenu-1" class="toggle"><i class="fa fa-address-book-o fa-2x">&nbsp;</i>Inscripciones<b class="arrow-down"></b></label>
-                            <a role="menuitem" href="#"><i class="fa fa-address-book-o fa-2x">&nbsp;</i><br>Inscripciones<b class="arrow-down"></b></a>
-                            <input type="checkbox" id="MenuPrincipal-submenu-1">
-                            <ul role="menu">
-                                <li><a role="menuitem" href="./ver.html"><i class="fa fa-eye fa-2x">&nbsp;</i>Consultar&nbsp;Horario</a></li>
-                                <li><a role="menuitem" href="./inscribir.html" target="FramePrincipal"><i class="fa fa-clock-o fa-2x">&nbsp;</i>Cuadrar&nbsp;Horario</a></li>
-                            </ul>
-                        </li>
-                    </ul>
+
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-      <%= yield %>
+        <div id="wb_LayoutMenu">
+            <div id="LayoutMenu">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_TextBienvenidaEst" class="TextoHeader">
+                            <span style="color:#EEAD17;"><strong>Bienvenido Estudiante!</strong></span>
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="wb_iconNotificacionesEst">
+                            <svg id="iconNotificacionesEst" class="imagen" height="100%" width="100%" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <g transform="scale(0.0179)">
+                            <path transform="rotate(180) scale(-1,1) translate(0,-1536)" d="M912 -160q0 16 -16 16q-59 0 -101.5 42.5t-42.5 101.5q0 16 -16 16t-16 -16q0 -73 51.5 -124.5t124.5 -51.5q16 0 16 16zM1728 128q0 -52 -38 -90t-90 -38h-448q0 -106 -75 -181t-181 -75t-181 75t-75 181h-448q-52 0 -90 38t-38 90q50 42 91 88t85 119.5t74.5 158.5t50 206t19.5 260q0 152 117 282.5t307 158.5q-8 19 -8 39q0 40 28 68t68 28t68 -28t28 -68q0 -20 -8 -39q190 -28 307 -158.5t117 -282.5q0 -139 19.5 -260t50 -206t74.5 -158.5t85 -119.5t91 -88z"/>
+                            </g>
+                            </svg>
 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%= yield %>
         <div id="wb_LayoutGrid5">
             <div id="LayoutGrid5">
                 <div class="row">
@@ -141,6 +173,5 @@
                 </div>
             </div>
         </div>
-        
     </body>
 </html>

@@ -1,0 +1,2 @@
+module Estudiante::HorarioHelper
+end
