@@ -1,3 +1,24 @@
-# ProyectoSistemasInformacion
-Pagina desarrollada en Ruby on Rails
-La carpeta web contiene solamente el diseño y la maqueta de la pagina web. Mientras que la carpeta web_ruby contiene el diseño implementado en el framework rails en Ruby (Ruby on rails)
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
