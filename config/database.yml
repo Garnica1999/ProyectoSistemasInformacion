@@ -22,5 +22,10 @@ test:
   database: db/proyecto_si_test.sqlite3
 
 production:
-  <<: *default
-  database: db/proyecto_si_production.sqlite3
+  adapter: postgresql
+  database: d4vs0g3pd64l3p
+  host: ec2-54-221-237-246.compute-1.amazonaws.com
+  pool: 5
+  username: pfersjxakyrzou
+  password: dc7f6c47a6844a22fed3886f81ceda106247472caf838ab43d4fde737320b012
+  port: 5432
