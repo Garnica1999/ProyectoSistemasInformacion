@@ -18,13 +18,16 @@ Rails.application.config.assets.precompile += %w( index.css
 	horario.css 
 	index-horario.css
 	jquery-ui.min.css
-	estudiante/estudiante.css
-	estudiante/index-estudiante.css
-	estudiante/login-horario.css
-	estudiante/inscribir-horario.css
-	estudiante/ver-horario.css
-	estudiante/materias_disponibles.css
-	estudiante/login-monitoria.css
-	estudiante/inscribir-monitoria.css
-	estudiante/ver-monitoria.css
+	students/estudiante.css
+	students/index-estudiante.css
+	students/login-horario.css
+	students/inscribir-horario.css
+	students/ver-horario.css
+	students/materias_disponibles.css
+	students/login-monitoria.css
+	students/inscribir-monitoria.css
+	students/ver-monitoria.css
+	students/ver-estudiantes.css
+	students/info-estudiantes.css
+	students/nuevo-estudiante.css
 )

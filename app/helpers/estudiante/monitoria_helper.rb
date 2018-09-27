@@ -1,2 +1,0 @@
-module Estudiante::MonitoriaHelper
-end
