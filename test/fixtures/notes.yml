@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  student: one
+  subject: one
+  group: one
+  nota: 9.99
+
+two:
+  student: two
+  subject: two
+  group: two
+  nota: 9.99
