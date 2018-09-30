@@ -1,5 +1,5 @@
 class Note < ApplicationRecord
-  self.primary_key = "group", "student", "subject"
+  #self.primary_key = "group", "student", "subject"
 
   belongs_to :student
   belongs_to :group

@@ -1,5 +1,5 @@
 class Semester < ApplicationRecord
-	self.primary_key = "semestre"
+	#self.primary_key = "semestre"
 
 	has_many :subjects
 
