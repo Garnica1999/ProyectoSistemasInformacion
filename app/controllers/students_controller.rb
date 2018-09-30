@@ -3,7 +3,7 @@ class StudentsController < ApplicationController
 
   def configure_devise_params
     devise_parameter_sanitizer.permit(:sign_up) do |user|
-      user.permit(:codigo, :documento, :nombres, :apellidos, :es_egresado, :email, :password)
+      user.permit(:codigo, :documento, :nombres, :apellidos, :es_egresado, :email, :password, :password_confirmation)
     end
   end
   layout 'application'
