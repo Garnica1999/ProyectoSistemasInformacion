@@ -1,9 +1,6 @@
 class CreateSubjects < ActiveRecord::Migration[5.1]
   def change
-    create_table :subjects, {
-    	:id => false,
-    	:primary_key => :codigo
-    } do |t|
+    create_table :subjects do |t|
     	  t.integer :codigo
       	t.string :nombre
       	t.integer :creditos

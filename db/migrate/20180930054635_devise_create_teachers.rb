@@ -2,10 +2,7 @@
 
 class DeviseCreateTeachers < ActiveRecord::Migration[5.1]
   def change
-    create_table :teachers, {
-      :id => false,
-      :primary_key => :documento
-    } do |t|
+    create_table :teachers do |t|
       ## Database authenticatable
       t.integer :documento, null: false
       t.string :nombres, null: false
