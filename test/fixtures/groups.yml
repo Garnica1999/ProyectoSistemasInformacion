@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
+  codigo: 1
   subject: one
   teacher: one
   student: one
 
 two:
+  codigo: 1
   subject: two
   teacher: two
   student: two

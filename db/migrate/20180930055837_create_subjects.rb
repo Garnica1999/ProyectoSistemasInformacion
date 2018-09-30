@@ -1,0 +1,15 @@
+class CreateSubjects < ActiveRecord::Migration[5.1]
+  def change
+    create_table :subjects, {
+    	:id => false,
+    	:primary_key => :codigo
+    } do |t|
+    	  t.integer :codigo
+      	t.string :nombre
+      	t.integer :creditos
+      	t.references :semester, foreign_key: true
+
+      	t.timestamps
+    end
+  end
+end

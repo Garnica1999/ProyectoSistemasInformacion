@@ -1,11 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  nombre_materia: MyString
+  codigo: 1
+  nombre: MyString
   creditos: 1
   semester: one
 
 two:
-  nombre_materia: MyString
+  codigo: 1
+  nombre: MyString
   creditos: 1
   semester: two

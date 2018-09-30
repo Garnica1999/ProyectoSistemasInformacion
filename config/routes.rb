@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
+
   devise_for :teachers
   devise_for :students
-
   namespace :students do
     get 'monitoring/index'
     get 'monitoring/inscribir'
