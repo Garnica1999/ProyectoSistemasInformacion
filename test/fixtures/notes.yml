@@ -2,12 +2,10 @@
 
 one:
   student: one
-  subject: one
   group: one
-  nota: 9.99
+  subject: one
 
 two:
   student: two
-  subject: two
   group: two
-  nota: 9.99
+  subject: two

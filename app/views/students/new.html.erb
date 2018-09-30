@@ -13,6 +13,9 @@
                         <div id="wb_IconFont1">
                             <div id="IconFont1"><i class="material-icons">&#xe7fe;</i></div>
                         </div>
+
+                        <%= f.text_field :codigo, placeholder: "Codigo", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
+                        <hr id="Line2NewEst">
                         <%= f.text_field :documento, placeholder: "Documento", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
                         <hr id="Line2NewEst">
                         <%= f.text_field :nombres, placeholder: "Nombres", class: "EditBox", value: "", type: "text", id: "EditboxNombreRegEst"%>
@@ -26,9 +29,13 @@
                         <%= f.text_field :es_egresado, placeholder: "Tipo (0 para Estudiante, 1 para egresado)", class: "EditBox", value: "", type: "number", id: "EditboxApellidosRegEst"%>
 
                         <hr id="Line8NewEst">
-                        <%= f.password_field :clave , class: "EditBox", value: "", spellcheck: "false", placeholder: "Contraseña", id: "EditboxClaveRegEst"%>
+
+                        <%= f.text_field :email, placeholder: "E-mail", class: "EditBox", value: "", type: "text", id: "EditboxApellidosRegEst"%>
+
+                        <hr id="Line8NewEst">
+                        <%= f.password_field :password , class: "EditBox", value: "", spellcheck: "false", placeholder: "Contraseña", id: "EditboxClaveRegEst"%>
                         <hr id="Line10NewEst">
-                        <%= f.password_field :clave_confirmation , class: "EditBox", value: "", spellcheck: "false", placeholder: "Confirmar Contraseña", id: "EditboxConfClaveRegEst"%>
+                        <%= f.password_field :password_confirmation , class: "EditBox", value: "", spellcheck: "false", placeholder: "Confirmar Contraseña", id: "EditboxConfClaveRegEst"%>
                         <hr id="Line6NewEst">
                         <%= f.submit "Registrar", id: "ButtonRegistrarEstRegEst", class: "boton"%> 
                         <hr id="Line6NewEst">

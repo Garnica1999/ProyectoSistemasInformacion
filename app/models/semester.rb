@@ -1,4 +1,6 @@
 class Semester < ApplicationRecord
+	self.primary_key = "semestre"
+
 	has_many :subjects
 
 	has_and_belongs_to_many :students
