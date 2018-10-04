@@ -11,9 +11,9 @@ class StudentsController < ApplicationController
   #GET /estudiante
   def index
   	#TRAER TODOS LOS REGISTROS DE LA TABLA Student
-  	Student.all
+  	#Student.all
   	#PASAR DATOS A LA VISTA - OBTIENE TODOS LOS REGISTROS
-  	@students = Student.all
+  	#@students = Student.all
   end
   #GET /estudiante/:id
   def show 
