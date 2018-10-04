@@ -1,0 +1,9 @@
+<% if student_signed_in? %>
+    <script type="text/javascript">
+        window.location.href=<%=  %>  // put your correct path in a string here
+    </script>
+<% else %>
+    <script type="text/javascript">
+        window.location.href="/students/sign_in"  // put your correct path in a string here
+    </script>
+<% end %>

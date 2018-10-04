@@ -22,11 +22,12 @@
                                                 </svg>
 
                                             </div>
+                                            <hr id="separador8Mon" class="separador">
                                             <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
                                               <%= f.text_field :codigo, id: "EditboxCodigo", class: "EditBox", placeholder:"Codigo" %>
                                               <hr id="separador8Mon" class="separador">
-                                              <%= f.text_field :password, id: "EditboxPassword", class: "EditBox", placeholder:"Contraseña"  %>
+                                              <%= f.password_field :password, id: "EditboxPassword", class: "EditBox", placeholder:"Contraseña"  %>
                                               <hr id="separador8Mon" class="separador">
                                               
                                               <div id="wb_ButtonEntrarMonitoria">

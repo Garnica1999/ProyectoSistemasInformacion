@@ -1,0 +1,50 @@
+<%if menu == "inicio"%>
+	<div id="wb_CssMenu1">
+	    <ul role="menubar">
+	        <li class="firstmain">
+	        	<a role="menuitem" href="#" target="_self" title="Aspirantes">Aspirantes</a>
+	        </li>
+	        <li>
+	        	<a role="menuitem" href="#" target="_self" title="Estudiantes">Estudiantes</a>
+	        </li>
+	        <li>
+	        	<a role="menuitem" href="#" target="_self" title="Docentes">Docentes</a>
+	        </li>
+	        <li>
+	        	<a role="menuitem" href="#" target="_self" title="Egresados">Egresados</a>
+	        </li>
+	        <li>
+	        	<a role="menuitem" href="#" target="_self" title="Directivos">Directivos</a>
+	        </li>
+	    </ul>
+	</div>
+<% elsif menu == "estudiante"%>
+	<div id="wb_MenuPrincipal">
+	    <label class="toggle" for="MenuPrincipal-submenu" id="MenuPrincipal-title">Menu<span id="MenuPrincipal-icon"><span>&nbsp;</span><span>&nbsp;</span><span>&nbsp;</span></span></label>
+	    <input type="checkbox" id="MenuPrincipal-submenu">
+	    <ul class="MenuPrincipal" id="MenuPrincipal" class="menu" role="menu">
+	        <li><a role="menuitem" href="/students/index.html"><i class="fa fa-home fa-2x">&nbsp;</i><br>Inicio</a></li>
+	        <li>
+	            <label for="MenuPrincipal-submenu-0" class="toggle"><i class="fa fa-child fa-2x">&nbsp;</i>Monitorias<b class="arrow-down"></b></label>
+	            <a role="menuitem" href="#"><i class="fa fa-child fa-2x">&nbsp;</i><br>Monitorias<b class="arrow-down"></b></a>
+	            <input type="checkbox" id="MenuPrincipal-submenu-0">
+	            <ul role="menu">
+	                <li><a role="menuitem" href="/students/monitoring/ver.html"><i class="fa fa-desktop fa-2x">&nbsp;</i>Ver&nbsp;Monitorias</a></li>
+	                <li><a role="menuitem" href="/students/monitoring/inscribir.html"><i class="fa fa-edit fa-2x">&nbsp;</i>Inscribirse&nbsp;a&nbsp;monitor</a></li>
+	            </ul>
+	        </li>
+	        <li>
+	            <label for="MenuPrincipal-submenu-1" class="toggle"><i class="fa fa-address-book-o fa-2x">&nbsp;</i>Horario<b class="arrow-down"></b></label>
+	            <a role="menuitem" href="#"><i class="fa fa-address-book-o fa-2x">&nbsp;</i><br>Horario<b class="arrow-down"></b></a>
+	            <input type="checkbox" id="MenuPrincipal-submenu-1">
+	            <ul role="menu">
+	                <li><a role="menuitem" href="/students/schedules/ver.html"><i class="fa fa-eye fa-2x">&nbsp;</i>Consultar&nbsp;Horario</a></li>
+	                <li><a role="menuitem" href="/students/schedules/inscribir.html" ><i class="fa fa-clock-o fa-2x">&nbsp;</i>Cuadrar&nbsp;Horario</a></li>
+	            </ul>
+	        </li>
+	    </ul>
+
+	</div>
+<% elsif menu == "profesor"%>
+<% elsif menu == "registro"%>
+<% end %>

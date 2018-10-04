@@ -1,0 +1,157 @@
+<div id="wb_LayoutGridInfoUserVerMon">
+    <div id="LayoutGridInfoUserVerMon">
+        <div class="row">
+            <div class="col-1">
+                <div id="wb_EmbeddedPage1">
+                    <div id="wb_LayoutGrid1">
+                        <div id="LayoutGrid1">
+                            <div class="row">
+                                <div class="col-1">
+                                    <table id="Table1">
+                                        <tr>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <br>
+                                                    <strong>
+                                                    <%= "Nombres: " + current_student.nombres + " " + current_student.apellidos%>
+                                                        
+                                                    </strong>
+                                                    <br>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <br>
+                                                    <strong>
+                                                        <%= "Promedio: " + current_student.promedio_carrera.to_s %>
+                                                    </strong>
+                                                    <br>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <br>
+                                                    <strong>
+                                                        Semestre:
+                                                    </strong>
+                                                    <br>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <br>
+                                                    <strong>
+                                                        <%=
+
+                                                            cad = "Tipo: "
+                                                            cad = cad + (current_student.es_egresado == 0 ? "Estudiante" : "Egresado")
+                                                        %>
+                                                    </strong>
+                                                    <br>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <br>
+                                                    <strong>
+                                                        Carrera: 
+                                                    </strong>
+                                                    <br>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#000000;font-family:Arial;font-size:13px;line-height:23px;">
+                                                    <br>
+                                                </span>
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:17px;line-height:23px;">
+                                                    <strong>
+                                                        Facultad:
+                                                    </strong>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wb_LayoutGridSepVerMon">
+    <div id="LayoutGridSepVerMon">
+        <div class="row">
+            <div class="col-1">
+                <hr id="Line2VerMon">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="wb_LayoutContenidoVerMon">
+    <form name="matricula" method="post" action="" enctype="text/plain" accept-charset="UTF-8" id="LayoutContenidoVerMon">
+        <div class="row">
+            <div class="col-1">
+                <hr id="LineVerMon">
+                <div id="wb_Text1" class="TextoNoticia">
+                    <span style="color:#000000;font-family:Arial;font-size:13px;">Se muestran a continuacion las materias que aun no tienen monitor asignado. El estudiante puede inscribirse a solo una materia. Una vez inscrito, la materia no estara disponible para que otro estudiante escoja esta.</span>
+                </div>
+                <hr id="Line1">
+                <table id="TablaMateriasVerMon">
+                    <tr>
+                        <td class="cell0">
+                            <span style="color:#000000;">
+                                <strong>GRUPO</strong>
+                            </span>
+                        </td>
+                        <td class="cell0">
+                            <span style="color:#000000;">
+                                <strong>CODIGO DE LA MATERIA</strong>
+                            </span>
+                        </td>
+                        <td class="cell0">
+                            <span style="color:#000000;">
+                                <strong>MATERIA</strong>
+                            </span>
+                        </td>
+                        <td class="cell0">
+                            <span style="color:#000000;">
+                                <strong>CREDITOS</strong>
+                            </span>
+                        </td>
+                    </tr>
+
+                    <%= @groups.each do |g| %>
+                        <tr>
+                            <td class="cell1">
+                                <!--IMPRESION DEL CODIGO DEL GRUPO-->
+                                <span style="color:#000000;"><%= g.codigo%></span>
+                            </td>
+                            <td class="cell2">
+                                <!--IMPRESION DEL CODIGO DE LA MATERIA-->
+                                <span style="color:#000000;"><%= g.subject.codigo%></span>
+                            </td>
+                            <td class="cell2">
+                                <span style="color:#000000;"><%= g.subject.nombre%></span>
+                            </td>
+                            <td class="cell2">
+                                <span style="color:#000000;"><%= g.subject.creditos%></span>
+                            </td>
+                        </tr>   
+                    <% end %>
+
+                    
+                    
+                </table>
+                <hr id="Line8">
+            </div>
+        </div>
+    </form>
+</div>

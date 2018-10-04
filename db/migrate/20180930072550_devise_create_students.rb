@@ -10,8 +10,8 @@ class DeviseCreateStudents < ActiveRecord::Migration[5.1]
       t.string :apellidos, null: false
       t.integer :es_egresado, null: false
       t.decimal :promedio_carrera, null: true, default: 0.0
-      t.string :email,              null: false, default: ""
-      t.string :encrypted_password, null: false, default: ""
+      t.string :email, null: false
+      t.string :encrypted_password, null: false
 
       ## Recoverable
       t.string   :reset_password_token
@@ -45,6 +45,7 @@ class DeviseCreateStudents < ActiveRecord::Migration[5.1]
     add_index :students, :email,                unique: true
     add_index :students, :reset_password_token, unique: true
     add_index :students, :documento, unique: true
+    add_index :students, :codigo, unique: true
     # add_index :students, :confirmation_token,   unique: true
     # add_index :students, :unlock_token,         unique: true
   end

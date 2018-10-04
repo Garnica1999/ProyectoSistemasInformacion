@@ -1,0 +1,2 @@
+module Registros::NotasHelper
+end

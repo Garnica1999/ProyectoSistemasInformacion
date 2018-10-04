@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+semestre = Semester.new(semestre: 7, fecha_inicio: '2018-07-27', fecha_fin: '2018-11-20')
+semestre.save
+subject = semestre.subjects.new(codigo: 1256, nombre: "Sistemas de Informacion", creditos: 4)
+subject.save
+subject.group.create(codigo: 1233)

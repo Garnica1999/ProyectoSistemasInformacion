@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Students::RegistrationsController < Devise::RegistrationsController
+  layout 'students'
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
 
@@ -8,30 +9,23 @@ class Students::RegistrationsController < Devise::RegistrationsController
   # def new
   #   super
   # end
-
+  
+  #POST /resource
   def create
-    @student = Student.new(
-                codigo: params[:student][:codigo],
-                documento: params[:student][:documento], 
-                nombres: params[:student][:nombres], 
-                apellidos: params[:student][:apellidos], 
-                es_egresado: params[:student][:es_egresado],
-                email: params[:student][:email],
-                clave: params[:student][:clave], 
-                promedio_carrera: 0.0)
-    #@student = Student.new(params[student_params])
+    
+
+    @student = Student.new(student_params)
     if @student.save
       redirect_to @student
     else
+      puts @student.errors.inspect
       render :new
     end
   end
-  #DELETE /students/:id
-  def destroy
-    @student =  Student.find(params[:id]) #
-    @student.destroy #Destroy elimina el objeto de la base de datos
-    redirect_to students_path
-  end
+
+def edit
+  @student = Student.find(params[:id])
+end
 
   # GET /resource/edit
   # def edit
@@ -78,4 +72,9 @@ class Students::RegistrationsController < Devise::RegistrationsController
   # def after_inactive_sign_up_path_for(resource)
   #   super(resource)
   # end
+  private
+
+  def student_params
+    params.require(:student).permit(:email, :password, :password_confirmation, :nombres, :apellidos, :codigo, :documento, :es_egresado)
+  end
 end

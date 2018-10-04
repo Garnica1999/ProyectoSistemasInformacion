@@ -1,35 +1,39 @@
+<% @title="Universidad Catolica de Colombia" %>
 <div id="wb_Carousel1">
     <div id="Carousel1">
         <div class="frame frame-1">
             <div class="innerframe">
                 <div id="wb_TextNoticia1" class="TituloNoticia">
-                    <span style="color:#4F4F4F;">NOTICIA 1</span></div>
+                    <span style="color:#4F4F4F;">NOTICIA 1</span>
+                </div>
             </div>
         </div>
         <div class="frame frame-2">
             <div class="innerframe">
                 <div id="wb_Text1" class="TituloNoticia">
-                    <span style="color:#4F4F4F;">NOTICIA 2</span></div>
+                    <span style="color:#4F4F4F;">NOTICIA 2</span>
+                </div>
                 <div id="wb_Text7" class="TituloNoticia">
                     <span style="color:#4F4F4F;">NOTICIA 2</span></div>
-            </div>
+                </div>
         </div>
         <div class="frame frame-3">
             <div class="innerframe">
                 <div id="wb_Text2" class="TituloNoticia">
-                    <span style="color:#4F4F4F;">NOTICIA 3</span></div>
+                    <span style="color:#4F4F4F;">NOTICIA 3</span>
+                </div>
                 <div id="wb_Text9" class="TituloNoticia">
-                    <span style="color:#4F4F4F;">NOTICIA 3</span></div>
+                    <span style="color:#4F4F4F;">NOTICIA 3</span>
+                </div>
             </div>
         </div>
     </div>
-    <div id="Carousel1_back"><a><%= image_tag("left-arrow.png", :alt => "Back")%></a></div>
-    <div id="Carousel1_next"><a><%= image_tag("right-arrow.png", :alt => "Next")%></a></div>
-
-    <!--
-    <div id="Carousel1_back"><a><img alt="Back" src="images/left-arrow.png"></a></div>
-    <div id="Carousel1_next"><a><img alt="Next" src="images/right-arrow.png"></a></div>
-    -->
+    <div id="Carousel1_back">
+        <a><%= image_tag("left-arrow.png", :alt => "Back")%></a>
+    </div>
+    <div id="Carousel1_next">
+        <a><%= image_tag("right-arrow.png", :alt => "Next")%></a>
+    </div>
 </div>
 <div id="wb_FlexContainer3">
     <div id="FlexContainer3">
@@ -51,7 +55,13 @@
                         <li><a role="menuitem" href="https://biblioteca.ucatolica.edu.co/" target="_blank" title="Biblioteca UCatolica"><i class="material-icons">&#xe865;</i><br>Biblioteca</a></li>
                         <li><a role="menuitem" href="http://server.ucatolica.edu.co" target="_blank" title="Correo Electronico"><i class="material-icons">&#xe0be;</i><br>Correo</a></li>
                         <li><a role="menuitem" href="https://ava.ucatolica.edu.co/ava2/login/index.php" target="_blank" title="Aula Virtual AVA2"><i class="material-icons">&#xe878;</i><br>Aula&nbsp;Virtual</a></li>
-                        <li><a role="menuitem" href="/students/index.html"><i class="material-icons">&#xe87c;</i><br>Estudiantes</a></li>
+                        <li>
+                            <% if student_signed_in? %>
+                            <a role="menuitem" href="/students/index"><i class="material-icons">&#xe87c;</i><br>Estudiantes</a>
+                            <% else %>
+                            <a role="menuitem" href="/students/sign_in"><i class="material-icons">&#xe87c;</i><br>Estudiantes</a>
+                            <% end %>
+                        </li>
                     </ul>
 
                 </div>
@@ -283,3 +293,4 @@
         </div>
     </div>
 </div>
+                    

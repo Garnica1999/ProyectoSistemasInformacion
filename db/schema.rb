@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180930062613) do
+ActiveRecord::Schema.define(version: 20180930072550) do
 
   create_table "groups", force: :cascade do |t|
     t.integer "codigo"
@@ -37,6 +37,7 @@ ActiveRecord::Schema.define(version: 20180930062613) do
     t.integer "student_id"
     t.integer "group_id"
     t.integer "subject_id"
+    t.decimal "nota", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["group_id"], name: "index_notes_on_group_id"
@@ -104,13 +105,14 @@ ActiveRecord::Schema.define(version: 20180930062613) do
     t.string "apellidos", null: false
     t.integer "es_egresado", null: false
     t.decimal "promedio_carrera", default: "0.0"
-    t.string "email", default: "", null: false
-    t.string "encrypted_password", default: "", null: false
+    t.string "email", null: false
+    t.string "encrypted_password", null: false
     t.string "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["codigo"], name: "index_students_on_codigo", unique: true
     t.index ["documento"], name: "index_students_on_documento", unique: true
     t.index ["email"], name: "index_students_on_email", unique: true
     t.index ["reset_password_token"], name: "index_students_on_reset_password_token", unique: true
