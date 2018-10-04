@@ -7,6 +7,10 @@ class MonitoringsController < ApplicationController
 	def ver
 		#@groups = Group.joins(:subject).where.not(student_id: nil)
 		@groups = Group.joins(:subject).where(student_id: nil)
+		@student = Student.find(params[:student_id])
 	end
 
+	def inscribir
+		@student = Student.find(params[:student_id])
+	end
 end
