@@ -10,4 +10,4 @@ semestre = Semester.new(semestre: 7, fecha_inicio: '2018-07-27', fecha_fin: '201
 semestre.save
 subject = semestre.subjects.new(codigo: 1256, nombre: "Sistemas de Informacion", creditos: 4)
 subject.save
-subject.group.create(codigo: 1233)
+subject.groups.create(codigo: 1233)
