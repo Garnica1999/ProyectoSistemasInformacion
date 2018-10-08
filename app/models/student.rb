@@ -6,10 +6,11 @@ class Student < ApplicationRecord
 	has_many :subjects
 	has_many :notes
 	has_many :logs
-	belongs_to :program
 
 	#RELACION MUCHOS A MUCHOS
 	has_and_belongs_to_many :semesters
+
+	
 	
 	def self.calc_credits(id_student)
 		credits = 0

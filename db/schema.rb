@@ -117,7 +117,7 @@ ActiveRecord::Schema.define(version: 20181007061021) do
     t.integer "es_egresado", null: false
     t.decimal "promedio_carrera", default: "0.0"
     t.decimal "matricula", default: "0.0"
-    t.integer "program_id"
+    t.string "programa", null: false
     t.string "email", null: false
     t.string "encrypted_password", null: false
     t.string "reset_password_token"
@@ -128,7 +128,6 @@ ActiveRecord::Schema.define(version: 20181007061021) do
     t.index ["codigo"], name: "index_students_on_codigo", unique: true
     t.index ["documento"], name: "index_students_on_documento", unique: true
     t.index ["email"], name: "index_students_on_email", unique: true
-    t.index ["program_id"], name: "index_students_on_program_id"
     t.index ["reset_password_token"], name: "index_students_on_reset_password_token", unique: true
   end
 

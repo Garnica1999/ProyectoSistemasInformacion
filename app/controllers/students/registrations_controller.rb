@@ -12,12 +12,12 @@ class Students::RegistrationsController < Devise::RegistrationsController
   
   #POST /resource
   def create
-    program = params[:student][:program_id]
+    program = params[:student][:programa]
     @student = Student.new(student_params)
     
     programs = Program.where(nombre: program.split("-").at(1))
     programs.each do |program|
-      @student.program_id = program.id
+      @student.programa = program.id
       @student.matricula = program.matricula.to_f
     end
     
