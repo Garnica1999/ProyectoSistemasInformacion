@@ -3,44 +3,6 @@
         <div class="row">
             <div class="col-1">
                 <%= render "/students/infoest", student: @student %>
-                <div id="wb_LayoutGrid3">
-                    <div id="LayoutGrid3">
-                        <div class="row">
-                            <div class="col-1">
-                                <hr id="Line1InsMon">
-                                <div id="wb_TextAdvertenciaInsMom">
-                                    <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:16px;">Usted cumple con los requisitos para poder ser monitor de la materia seleccionada.<br>Esta seguro de continuar?</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="wb_LayoutFormInsMon">
-                    <form name="Confirmacion" method="post" action="../index.html" enctype="text/plain" id="LayoutFormInsMon">
-                        <div class="row">
-                            <div class="col-1">
-                                <hr id="Line4InsMon">
-                            </div>
-                            <div class="col-2">
-                                <div id="wb_ButtonConfirmarInsMon">
-                                    <a class="ui-button ui-widget ui-corner-all" id="ButtonConfirmarInsMon" href="/students/index.html" id="ButtonConfirmarInsMon" class="boton">Si</a>
-                                </div>
-                                <hr id="Line1">
-                            </div>
-                            <div class="col-3">
-                                <hr id="Line3InsMon">
-                            </div>
-                            <div class="col-4">
-                                <div id="wb_ButtonRechazarInsMon">
-                                    <a class="ui-button ui-widget ui-corner-all" id="ButtonRechazarInsMon" href="/students/monitoring/index.html" id="ButtonRechazarInsMon" class="boton">No</a>
-                                </div>
-                                <hr id="Line2InsMon">
-                            </div>
-                            <div class="col-5">
-                            </div>
-                        </div>
-                    </form>
-                </div>
             </div>
         </div>
     </div>
@@ -50,6 +12,35 @@
         <div class="row">
             <div class="col-1">
                 <hr id="LineFinalInsMon">
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wb_LayoutContentFormInsMo">
+    <div id="LayoutContentFormInsMo">
+        <div class="row">
+            <div class="col-1">
+                <div id="wb_LayoutFormInsMat">
+
+                    <%= form_tag(inscribir_student_monitoring_post_path) do%>
+                        <%= text_field_tag 'codigo_materia', nil, placeholder: "Codigo de la materia", class: "EditBox", id: "EditboxCodigoMatInsMat"%>
+                        <hr id="LinSepComForm">
+                        
+                        <div id="wb_ButtonInsMatInsMat">
+                            <%= submit_tag "Buscar", id: "ButtonInsMatInsMat", class: "boton", style: "color: #FFFFFF"%> 
+                        </div>
+                    <% end %>
+                    <%= render "inscripcion", mensaje: @mensaje, todoBien: @todoBien%>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wb_LayoutGridSep">
+    <div id="LayoutGridSep">
+        <div class="row">
+            <div class="col-1">
+                <hr id="LineSepInsmAT">
             </div>
         </div>
     </div>

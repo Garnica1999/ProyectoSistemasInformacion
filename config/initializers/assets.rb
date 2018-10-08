@@ -30,4 +30,5 @@ Rails.application.config.assets.precompile += %w( index.css
 	students/ver-estudiantes.css
 	students/info-estudiantes.css
 	students/nuevo-estudiante.css
+	students/mensaje-insc-estudiante.css
 )

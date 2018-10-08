@@ -10,16 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180930072550) do
+ActiveRecord::Schema.define(version: 20181007061021) do
 
   create_table "groups", force: :cascade do |t|
     t.integer "codigo"
     t.integer "subject_id"
     t.integer "teacher_id"
-    t.integer "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["student_id"], name: "index_groups_on_student_id"
     t.index ["subject_id"], name: "index_groups_on_subject_id"
     t.index ["teacher_id"], name: "index_groups_on_teacher_id"
   end
@@ -31,6 +29,18 @@ ActiveRecord::Schema.define(version: 20180930072550) do
     t.index ["group_id"], name: "index_groups_schedules_on_group_id"
     t.index ["schedule_id"], name: "index_groups_schedules_on_schedule_id"
     t.index ["subject_id"], name: "index_groups_schedules_on_subject_id"
+  end
+
+  create_table "logs", force: :cascade do |t|
+    t.integer "student_id"
+    t.integer "subject_id"
+    t.integer "semester_id"
+    t.decimal "nota_final", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["semester_id"], name: "index_logs_on_semester_id"
+    t.index ["student_id"], name: "index_logs_on_student_id"
+    t.index ["subject_id"], name: "index_logs_on_subject_id"
   end
 
   create_table "notes", force: :cascade do |t|
@@ -49,6 +59,7 @@ ActiveRecord::Schema.define(version: 20180930072550) do
     t.string "nombre"
     t.integer "school_id"
     t.integer "teacher_id"
+    t.decimal "matricula", default: "0.0"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["school_id"], name: "index_programs_on_school_id"
@@ -105,6 +116,8 @@ ActiveRecord::Schema.define(version: 20180930072550) do
     t.string "apellidos", null: false
     t.integer "es_egresado", null: false
     t.decimal "promedio_carrera", default: "0.0"
+    t.decimal "matricula", default: "0.0"
+    t.integer "program_id"
     t.string "email", null: false
     t.string "encrypted_password", null: false
     t.string "reset_password_token"
@@ -115,6 +128,7 @@ ActiveRecord::Schema.define(version: 20180930072550) do
     t.index ["codigo"], name: "index_students_on_codigo", unique: true
     t.index ["documento"], name: "index_students_on_documento", unique: true
     t.index ["email"], name: "index_students_on_email", unique: true
+    t.index ["program_id"], name: "index_students_on_program_id"
     t.index ["reset_password_token"], name: "index_students_on_reset_password_token", unique: true
   end
 
@@ -123,9 +137,11 @@ ActiveRecord::Schema.define(version: 20180930072550) do
     t.string "nombre"
     t.integer "creditos"
     t.integer "semester_id"
+    t.integer "student_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["semester_id"], name: "index_subjects_on_semester_id"
+    t.index ["student_id"], name: "index_subjects_on_student_id"
   end
 
   create_table "teachers", force: :cascade do |t|

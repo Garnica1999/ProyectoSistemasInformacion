@@ -1,0 +1,30 @@
+<div id="wb_LayoutGrid3">
+    <div id="LayoutGrid3">
+        <div class="row">
+            <div class="col-1">
+                <hr id="Line1InsMonMen">
+                <div id="wb_TextAdvertenciaInsMom">
+                    <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:16px;">
+                        <% if !todoBien %>
+                            <strong><%= "No se pudo asignar el estudiante a la materia. Razon:"%></strong><br>
+                        <%end%>
+                        <% if mensaje != nil %>
+                            <%mensaje.each do |m|%>
+                                *<%= m%><br>
+                            <%end%> 
+                        <%end%> 
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="wb_LayoutFormInsMon">
+    <form name="Confirmacion" method="post" action="../index.html" enctype="text/plain" id="LayoutFormInsMon">
+        <div class="row">
+            <div class="col-1">
+                <hr id="LineFinalInsMonMen">
+            </div>
+        </div>
+    </form>
+</div>

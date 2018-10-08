@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
   
   get 'students/:student_id/monitorings/ver', to: 'monitorings#ver', as: :ver_student_monitoring
-
+  get 'students/:student_id/monitorings/inscribir', to: 'monitorings#inscribir', as: :inscribir_student_monitoring
+  post 'students/:student_id/monitorings/inscribir', to: 'monitorings#inscribir', as: :inscribir_student_monitoring_post
+  get 'students/:student_id/monitorings/index', to: 'monitorings#index'
   devise_for :students, controllers: {
     registrations: 'students/registrations',
     sessions: 'students/sessions'}
@@ -41,8 +43,6 @@ Rails.application.routes.draw do
   get 'teachers/index'
   get 'schedules/index'
   get 'schedules/ver'
-  get 'monitorings/index'
-  get 'monitorings/ver'
 
   #Definicio de recursos 
   resources :students do

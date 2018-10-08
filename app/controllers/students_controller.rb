@@ -43,8 +43,6 @@ class StudentsController < ApplicationController
     #if @student.save
   	#	redirect_to @student
   	#end
-    student_params = params.require(:student).permit(:email, :password, :password_confirmation, :nombres, :apellidos, :codigo, :documento, :es_egresado)
-
     @student = Student.new(student_params)
     if @student.save
       redirect_to @student
@@ -77,7 +75,7 @@ class StudentsController < ApplicationController
   private
 
   def student_params
-  	params.require(:student).permit(:documento, :nombres, :apellidos, :es_egresado, :clave)
+  	params.require(:student).permit(:email, :password, :password_confirmation, :nombres, :apellidos, :codigo, :documento, :es_egresado)
   end
 
 end

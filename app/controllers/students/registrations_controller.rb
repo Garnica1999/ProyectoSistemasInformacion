@@ -12,9 +12,15 @@ class Students::RegistrationsController < Devise::RegistrationsController
   
   #POST /resource
   def create
-    
-
+    program = params[:student][:program_id]
     @student = Student.new(student_params)
+    
+    programs = Program.where(nombre: program.split("-").at(1))
+    programs.each do |program|
+      @student.program_id = program.id
+      @student.matricula = program.matricula.to_f
+    end
+    
     if @student.save
       redirect_to @student
     else

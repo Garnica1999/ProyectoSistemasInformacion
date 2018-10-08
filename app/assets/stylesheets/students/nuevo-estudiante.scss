@@ -413,101 +413,6 @@ body
    text-align: left;
    vertical-align: top;
 }
-#wb_RadioButtonEstudianteRegEst
-{
-   margin: 0;
-}
-#wb_RadioButtonEstudianteRegEst
-{
-   position: relative;
-}
-#wb_RadioButtonEstudianteRegEst, #wb_RadioButtonEstudianteRegEst *, #wb_RadioButtonEstudianteRegEst *::before, #wb_RadioButtonEstudianteRegEst *::after
-{
-   box-sizing: border-box;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']
-{
-   position: absolute;
-   padding: 0;
-   margin: 0;
-   opacity: 0;
-   z-index: 1;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-}
-#wb_RadioButtonEstudianteRegEst label
-{
-   display: inline-block;
-   vertical-align: middle;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 0;
-   height: 0;
-   padding: 0;
-}
-#wb_RadioButtonEstudianteRegEst label::before
-{
-   content: "";
-   display: inline-block;
-   position: absolute;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-   background-color: #FFFFFF;
-   border: 1px solid #CCCCCC;
-   border-radius: 50%;
-}
-#wb_RadioButtonEstudianteRegEst label::after
-{
-   display: inline-block;
-   position: absolute;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 34px;
-   border-radius: 50%;
-   color: #FFFFFF;
-   content: " ";
-   -webkit-transform: scale(0, 0);
-   -moz-transform: scale(0, 0);
-   transform: scale(0, 0);
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-   -webkit-transform: scale(0.8, 0.8);
-   -moz-transform: scale(0.8, 0.8);
-   transform: scale(0.8, 0.8);
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:focus + label::before
-{
-   outline: thin dotted;
-}
-#LabelEstudianteRegEst
-{
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color :#C5C5C5;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   vertical-align: top;
-}
 #Line1
 {
    border-color: #FFFFFF;
@@ -520,101 +425,6 @@ body
    line-height: 0px !important;
    margin: 0;
    padding: 0;
-}
-#LabelEgresadoRegEst
-{
-   border: 0px solid #CCCCCC;
-   border-radius: 4px;
-   background-color: transparent;
-   background-image: none;
-   color :#C5C5C5;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-size: 16px;
-   box-sizing: border-box;
-   padding: 4px 4px 4px 4px;
-   margin: 0;
-   text-align: left;
-   vertical-align: top;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   margin: 0;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   position: relative;
-}
-#wb_RadioButtonEgresadoRegEst, #wb_RadioButtonEgresadoRegEst *, #wb_RadioButtonEgresadoRegEst *::before, #wb_RadioButtonEgresadoRegEst *::after
-{
-   box-sizing: border-box;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']
-{
-   position: absolute;
-   padding: 0;
-   margin: 0;
-   opacity: 0;
-   z-index: 1;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-}
-#wb_RadioButtonEgresadoRegEst label
-{
-   display: inline-block;
-   vertical-align: middle;
-   position: absolute;
-   left: 0;
-   top: 0;
-   width: 0;
-   height: 0;
-   padding: 0;
-}
-#wb_RadioButtonEgresadoRegEst label::before
-{
-   content: "";
-   display: inline-block;
-   position: absolute;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-   background-color: #FFFFFF;
-   border: 1px solid #CCCCCC;
-   border-radius: 50%;
-}
-#wb_RadioButtonEgresadoRegEst label::after
-{
-   display: inline-block;
-   position: absolute;
-   width: 34px;
-   height: 34px;
-   left: 0;
-   top: 0;
-   padding: 0;
-   text-align: center;
-   line-height: 34px;
-   border-radius: 50%;
-   color: #FFFFFF;
-   content: " ";
-   -webkit-transform: scale(0, 0);
-   -moz-transform: scale(0, 0);
-   transform: scale(0, 0);
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-   -webkit-transform: scale(0.8, 0.8);
-   -moz-transform: scale(0.8, 0.8);
-   transform: scale(0.8, 0.8);
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:focus + label::before
-{
-   outline: thin dotted;
 }
 #EditboxConfClaveRegEst:focus
 {
@@ -657,7 +467,7 @@ body
 {
    text-align: left;
 }
-#Line2
+#Line9NewEst
 {
    border-color: #FFFFFF;
    border-style: solid;
@@ -670,32 +480,66 @@ body
    margin: 0;
    padding: 0;
 }
-#RadioButtonEstudianteRegEst
+#ComboboxPrograma
 {
-   display: inline-block;
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxPrograma:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxTipoEst:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxTipoEst::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxTipoEst::-ms-input-placeholder
+{
+   color: #C1C1C1;
 }
 #Line10NewEst
 {
    display: block;
    width: 100%;
-   z-index: 17;
+   z-index: 16;
 }
 #ButtonRegistrarEstRegEst
 {
    display: inline-block;
    width: 301px;
    height: 54px;
-   z-index: 20;
+   z-index: 19;
+}
+#EditboxTipoEst
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 11;
 }
 #LabelTipoRegEst
 {
    display: block;
    width: 100%;
    z-index: 9;
-}
-#RadioButtonEgresadoRegEst
-{
-   display: inline-block;
 }
 #EditboxNombreRegEst
 {
@@ -709,7 +553,7 @@ body
    display: block;
    width: 100%;
    height: 50px;
-   z-index: 16;
+   z-index: 15;
 }
 #Line2NewEst
 {
@@ -721,13 +565,7 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 24;
-}
-#LabelEgresadoRegEst
-{
-   display: inline-block;
-   width: 171px;
-   z-index: 13;
+   z-index: 22;
 }
 #Line3NewEst
 {
@@ -748,14 +586,7 @@ body
    display: block;
    width: 100%;
    height: 50px;
-   z-index: 18;
-}
-#wb_RadioButtonEstudianteRegEst
-{
-   display: inline-block;
-   width: 171px;
-   height: 34px;
-   z-index: 12;
+   z-index: 17;
 }
 #Line4NewEst
 {
@@ -780,44 +611,38 @@ body
 {
    display: block;
    width: 100%;
-   z-index: 19;
-}
-#LabelEstudianteRegEst
-{
-   display: inline-block;
-   width: 171px;
-   z-index: 11;
+   z-index: 18;
 }
 #Line7NewEst
 {
    display: block;
    width: 100%;
-   z-index: 21;
+   z-index: 20;
 }
 #Line8NewEst
 {
    display: block;
    width: 100%;
-   z-index: 15;
+   z-index: 14;
+}
+#Line9NewEst
+{
+   display: block;
+   width: 100%;
+   z-index: 12;
+}
+#ComboboxPrograma
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 13;
 }
 #Line1
 {
    display: block;
    width: 100%;
    z-index: 10;
-}
-#Line2
-{
-   display: block;
-   width: 100%;
-   z-index: 23;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   display: inline-block;
-   width: 171px;
-   height: 34px;
-   z-index: 14;
 }
 #EditboxDocumentoRegEst
 {
@@ -1127,57 +952,6 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#wb_RadioButtonEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEstudianteRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEstudianteRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-}
-#LabelEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
 #Line1
 {
    width: calc(100% - 0px);
@@ -1190,57 +964,6 @@ body
 {
    border-color: #FFFFFF;
    border-bottom-width: 25px;
-}
-#LabelEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEgresadoRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEgresadoRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
 }
 #EditboxConfClaveRegEst
 {
@@ -1281,6 +1004,46 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#Line9NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxPrograma
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#EditboxTipoEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 1023px)
@@ -1584,57 +1347,6 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#wb_RadioButtonEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEstudianteRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEstudianteRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-}
-#LabelEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
 #Line1
 {
    width: calc(100% - 0px);
@@ -1647,57 +1359,6 @@ body
 {
    border-color: #FFFFFF;
    border-bottom-width: 25px;
-}
-#LabelEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEgresadoRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEgresadoRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
 }
 #EditboxConfClaveRegEst
 {
@@ -1738,6 +1399,46 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#Line9NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxPrograma
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#EditboxTipoEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
@@ -2041,57 +1742,6 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#wb_RadioButtonEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEstudianteRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEstudianteRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-}
-#LabelEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
 #Line1
 {
    width: calc(100% - 0px);
@@ -2104,57 +1754,6 @@ body
 {
    border-color: #FFFFFF;
    border-bottom-width: 25px;
-}
-#LabelEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEgresadoRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEgresadoRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
 }
 #EditboxConfClaveRegEst
 {
@@ -2195,6 +1794,46 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#Line9NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxPrograma
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#EditboxTipoEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
 }
 }
 @media only screen and (max-width: 767px)
@@ -2498,57 +2137,6 @@ body
    padding: 4px 4px 4px 4px;
    text-align: left;
 }
-#wb_RadioButtonEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEstudianteRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEstudianteRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEstudianteRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
-}
-#LabelEstudianteRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
 #Line1
 {
    width: calc(100% - 0px);
@@ -2561,57 +2149,6 @@ body
 {
    border-color: #FFFFFF;
    border-bottom-width: 25px;
-}
-#LabelEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   color: #C5C5C5;
-   font-size: 16px;
-   font-family: "Segoe UI";
-   font-weight: normal;
-   font-style: normal;
-   text-decoration: none;
-   background-color: transparent;
-   background-image: none;
-   border-radius: 4px;
-   margin: 0;
-   padding: 4px 4px 4px 4px;
-   text-align: left;
-}
-#wb_RadioButtonEgresadoRegEst
-{
-   width: 171px;
-   height: 34px;
-   visibility: visible;
-   display: inline-block;
-   margin: 0;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']
-{
-   width: 34px;
-   height: 34px;
-}
-#wb_RadioButtonEgresadoRegEst label::before
-{
-   width: 34px;
-   height: 34px;
-   border-color: #CCCCCC;
-}
-#wb_RadioButtonEgresadoRegEst label::after
-{
-   width: 34px;
-   height: 34px;
-   line-height: 34px;
-   color: #FFFFFF;
-}
-#wb_RadioButtonEgresadoRegEst input[type='radio']:checked + label::after
-{
-   background-color: #0076C0;
-   background-image: none;
-   border-color: #0076C0;
 }
 #EditboxConfClaveRegEst
 {
@@ -2652,5 +2189,45 @@ body
 {
    margin: 0;
    padding: 0;
+}
+#Line9NewEst
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line9NewEst
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxPrograma
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#EditboxTipoEst
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
 }
 }
