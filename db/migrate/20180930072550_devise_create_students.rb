@@ -11,6 +11,7 @@ class DeviseCreateStudents < ActiveRecord::Migration[5.1]
       t.integer :es_egresado, null: false
       t.decimal :promedio_carrera, null: true, default: 0.0
       t.decimal :matricula, null: true, default: 0.0
+      t.references :program, foreign_key: true
       t.string :email, null: false
       t.string :encrypted_password, null: false
 
