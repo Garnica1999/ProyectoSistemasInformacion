@@ -51,6 +51,12 @@ class MonitoringsController < ApplicationController
 		if @todoBien
 			@mensaje.push(Student.ingresarMonitoria(params[:student_id], params[:codigo_materia].to_i))
 			puts @mensaje
+			if Student.descontarMatricula(params[:student_id])
+				@mensaje.push("Se ha descontado " + @pago.to_s + " a la matricula.")
+				@mensaje.push("Nuevo pago de matricula: " + current_student.matricula.to_s)
+			else
+				@mensaje.push("No se pudo descontar la matricula, contactese con la Universidad para mas informacion")
+			end
 		end
 	end
 end

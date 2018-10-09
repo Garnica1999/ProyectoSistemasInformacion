@@ -10,7 +10,8 @@ class Student < ApplicationRecord
 	#RELACION MUCHOS A MUCHOS
 	has_and_belongs_to_many :semesters
 
-	
+	@@PAGO_MONITOR_PREGRADO = 500000.0
+	@@PAGO_MONITOR_POSTGRADO = 750000.0
 	
 	def self.calc_credits(id_student)
 		credits = 0
@@ -71,7 +72,26 @@ class Student < ApplicationRecord
 	end
 
 	def self.descontarMatricula(id_student)
-		
+		student = Student.find(id_student)
+		if student.es_egresado == 0 #ES ESTUDIANTE
+			student.matricula -= @@PAGO_MONITOR_PREGRADO
+			@pago = @@PAGO_MONITOR_PREGRADO
+		else
+			student.matricula -= @@PAGO_MONITOR_POSTGRADO
+			@pago = @@PAGO_MONITOR_POSTGRADO
+		end
+
+		if student.save
+			puts 'Se ha descontado correctamente'
+			return true
+		else
+			puts 'No se pudo descontar correctamente, El descuento fallo'
+			return false
+		end
+	end
+
+	def self.crearContrato(id_student, cod_materia)
+
 	end
 
 	def self.opciones_programa
