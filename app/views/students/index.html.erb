@@ -18,7 +18,7 @@
                                 </div>
                                 <hr id="Line1">
                                 <div id="wb_IconHorarios">
-                                    <%= link_to student_schedules_path(current_student) do%>
+                                    <%= link_to student_schedule_path(current_student) do%>
                                         <div id="IconHorarios"><i class="material-icons">&#xe865;</i></div>
                                     <% end %>
                                 </div>
@@ -35,7 +35,7 @@
                                 <hr id="LineSep1">
                                 <div id="wb_IconoMonitorias">
                                     <!--Pero ahora estás tratando de acceder a un monitoring específico así /students/:student_id/monitorings/:id-->
-                                    <%= link_to student_monitorings_path(current_student) do%>
+                                    <%= link_to ver_student_monitoring_path(current_student) do%>
                                         <div id="IconoMonitorias"><i class="material-icons">&#xe8a3;</i></div>
                                     <%end%>
                                 </div>
@@ -54,6 +54,6 @@
 </div>
 <% else %>
 <script type="text/javascript">
-        window.location.href="/students/sign_in"  // put your correct path in a string here
+        window.location.href="students/sign_in"  // put your correct path in a string here
     </script>
     <% end %>

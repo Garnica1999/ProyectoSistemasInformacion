@@ -1,0 +1,532 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridContract
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridContract
+{
+   box-sizing: border-box;
+   padding: 0px 150px 0px 150px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridContract .row
+{
+   margin-right: -150px;
+   margin-left: -150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 150px;
+   padding-left: 150px;
+   position: relative;
+}
+#LayoutGridContract > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridContract > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridContract:before,
+#LayoutGridContract:after,
+#LayoutGridContract .row:before,
+#LayoutGridContract .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridContract:after,
+#LayoutGridContract .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridContract > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#TableContratoMonEst
+{
+   border: 0px solid #C0C0C0;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: separate;
+   border-spacing: 1px;
+   margin: 0;
+}
+#TableContratoMonEst td
+{
+   padding: 0;
+}
+#TableContratoMonEst td div
+{
+   white-space: nowrap;
+}
+#TableContratoMonEst .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   text-align: left;
+   vertical-align: center;
+   padding-top: 7px;
+   padding-bottom: 7px;
+}
+#wb_TextContratoMonEst 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 15px 5px 0px 5px;
+   margin: 0;
+   text-align: justify;
+}
+#wb_TextContratoMonEst
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+}
+#wb_TextContratoMonEst div
+{
+   text-align: justify;
+}
+#wb_TextContractoEstMon 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 15px 0px 10px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextContractoEstMon div
+{
+   text-align: center;
+}
+#TableContratoMonEst
+{
+   display: table;
+   width: 100%;
+   height: 133px;
+   z-index: 1;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContract
+{
+   padding: 0px 150px 0px 150px;
+}
+#LayoutGridContract .row
+{
+   margin-right: -150px;
+   margin-left: -150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   padding-right: 150px;
+   padding-left: 150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#TableContratoMonEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 8px 0px 0px 0px;
+   text-align: justify;
+}
+#wb_TextContractoEstMon
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContractoEstMon
+{
+   margin: 0;
+   padding: 0px 0px 6px 0px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContract
+{
+   padding: 0px 150px 0px 150px;
+}
+#LayoutGridContract .row
+{
+   margin-right: -150px;
+   margin-left: -150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   padding-right: 150px;
+   padding-left: 150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#TableContratoMonEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 8px 0px 0px 0px;
+   text-align: justify;
+}
+#wb_TextContractoEstMon
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContractoEstMon
+{
+   margin: 0;
+   padding: 0px 0px 6px 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContract
+{
+   padding: 0px 150px 0px 150px;
+}
+#LayoutGridContract .row
+{
+   margin-right: -150px;
+   margin-left: -150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   padding-right: 150px;
+   padding-left: 150px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#TableContratoMonEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 8px 0px 0px 0px;
+   text-align: justify;
+}
+#wb_TextContractoEstMon
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContractoEstMon
+{
+   margin: 0;
+   padding: 0px 0px 6px 0px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContract
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContract
+{
+   padding: 0px 10px 0px 10px;
+}
+#LayoutGridContract .row
+{
+   margin-right: -10px;
+   margin-left: -10px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   padding-right: 10px;
+   padding-left: 10px;
+}
+#LayoutGridContract > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#TableContratoMonEst
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContratoMonEst
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 16px;
+   margin: 0;
+   padding: 8px 0px 0px 0px;
+   text-align: justify;
+}
+#wb_TextContractoEstMon
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextContractoEstMon
+{
+   margin: 0;
+   padding: 0px 0px 6px 0px;
+}
+}

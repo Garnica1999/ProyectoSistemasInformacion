@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Students::UnlocksController < Devise::UnlocksController
+  layout 'students'
   # GET /resource/unlock/new
   # def new
   #   super

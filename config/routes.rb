@@ -1,9 +1,22 @@
 Rails.application.routes.draw do
-  
+  #Se define el renombramiento de los controladores y acciones
+  get "index", to: "inicio#index"
+  get 'students/:student_id/index', to: 'students#index', as: :student_index
+  get 'students/:student_id/schedules/index', to: 'schedules#index', as: :student_schedule
+
   get 'students/:student_id/monitorings/ver', to: 'monitorings#ver', as: :ver_student_monitoring
   get 'students/:student_id/monitorings/inscribir', to: 'monitorings#inscribir', as: :inscribir_student_monitoring
   post 'students/:student_id/monitorings/inscribir', to: 'monitorings#inscribir', as: :inscribir_student_monitoring_post
   get 'students/:student_id/monitorings/index', to: 'monitorings#index'
+  get 'students/:student_id/monitorings/contracts', to: 'monitorings#contracts', as: :contract_student_monitoring
+
+  
+  
+  get 'registers/students/ver'
+  get 'teachers/index'
+  get 'registers/schedules/index'
+  get 'registers/schedules/ver'
+
   devise_for :students, controllers: {
     registrations: 'students/registrations',
     sessions: 'students/sessions'}
@@ -30,30 +43,21 @@ Rails.application.routes.draw do
     registrations: 'teachers/registrations',
     sessions: 'teachers/sessions'}
 
-  namespace :registros do
-    get 'students/index'
-    get 'students/ver'
-  end
 
   #GET - SE PUEDE ACCEDER DESDE LAS RUTAS DESDE LA BARRA DE DIRECCIONES
   #POST - EL MAS SEGURO. SOLO SE PUEDE ACCEDER A TRAVES DE LINKS Y ACCIONES DE LA WEB
-  get 'inicio/index'
-  get 'students/index'
-  get 'students/ver'
-  get 'teachers/index'
-  get 'schedules/index'
-  get 'schedules/ver'
+
 
   #Definicio de recursos 
+
+
   resources :students do
     resources :schedules
     resources :monitorings
   end
-
   resources :teachers
   
-  #Se define el renombramiento de los controladores y acciones
-  get "inicio", to: "inicio#index"
+  
 
   #deinifion de la ruta de arranque del servidor web
   root 'inicio#index'

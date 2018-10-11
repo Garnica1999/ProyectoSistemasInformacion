@@ -1,0 +1,94 @@
+<% if student_signed_in? %>
+    <% if !@esMonitor %>
+        <div id="wb_LayoutGridContract">
+            <div id="LayoutGridContract">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_TextContractoEstMon">
+                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:27px;">Contrato de Trabajo</span>
+                        </div>
+                        <table id="TableContratoMonEst">
+                            <tr>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Nombres Completos:</strong>
+                                        <%= current_student.nombres + " " + current_student.apellidos %>
+                                    </span>
+                                </td>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Tipo de Estudiante: </strong>
+                                        <% if current_student.es_egresado == 0 %>
+                                            <%= "Estudiante" %>
+                                        <% else %>
+                                            <%= "Egresado" %>
+                                        <% end %>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Semestre: </strong>
+                                        <%=  %>
+                                    </span>
+                                </td>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Facultad y Carrera: </strong>
+                                        <%= @school + " " + @program %>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Descuento: </strong>
+                                        <%= @pago %>
+                                    </span>
+                                </td>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Promedio: </strong>
+                                        <%= current_student.promedio_carrera %>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="cell0">
+                                    
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Codigo: </strong>
+                                        <%= current_student.codigo %>
+                                    </span>
+                                </td>
+                                <td class="cell0">
+                                    <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                        <strong>Documento: </strong>
+                                        <%= current_student.documento %>
+                                    </span>
+                                </td>
+                            </tr>
+                        </table>
+                        <div id="wb_TextContratoMonEst">
+                            <span style="color:#4F4F4F;">Entre el empleador y el trabajador, de las condiciones ya dichas, identificados como aparece al pie de sus firmas, se ha celebrado el presente contrato individual de trabajo, a término indefinido regido, además, por las siguientes cláusulas:<br><br><strong>PRIMERA.</strong> <strong>-</strong>El estudiante debe cumplir con todos los servicios de monitoria prestada a todos los estudiantes y/o egresados que lo necesiten, siempre y cuando esten bajo las siguientes condiciones: a). Mientras se esten dentro del horario de monitorias establecidas a negociaciones. b). No haya vencido la fecha del contrato, que va desde la firma del contrato hasta la terminacion del semestre academico actual, que va hasta el ultimo dia de parciales academicos dados por la universidad. c). Cuando por mutuos acuerdos, o por acuerdo unilateral, tanto de la universidad como del monitor estudiantil, se haya vencido los terminos del presente contrato.<br><br><strong>SEGUNDA.</strong> <strong>-</strong>El monitor estudiantil tiene derecho a un descuento en la matricula, este descuento depende bajo los siguientes items: a). Para estudiantes vigentes dentro de la universidad, tiene derecho a un descuento de 500000 COP. b). Para egresados de la universidad, tiene derecho a un salario de 750000 COP.<br><br><strong>TERCERA. -</strong>En caso de no asistencias dentro los horarios acordados por ambas partes, se cambiara de monitor en la asignatura asignada. Ademas, tendra sanciones, e incluso, la exclusion de ser monitor a partir de la firma de la sacion por parte de la universidad<br><br><strong>CUARTA. -</strong>Dentro del periodo de monitorias, la universidad seguira cubriendo todas las necesidades sociales del estudiante, siempre y cuando las monitorias se den dentro de la universidad, para esto, al monitor se le asigna un lugar especial para poderlas dictar.<br><br><strong>QUINTA. -</strong>Al ser monitor, automaticamente esta aceptando el reglamento de monitorias estudiantiles avalado por la Universidad.<br><br><strong>SEXTA. -</strong>Al inscribirse como monitor, ya esta aceptando este contrato. Cualquier incumplimiento puede anular el presente contrato. Incluso, por decisiones administrativas este contrato puede ser anulado, y el monitor pasa a ser automaticamente revocado del puesto de monitorias, independientemente de la materia que se haya inscrito como monitor.<br><br></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    <% else %>
+        <div id="wb_TextContratoMonEst" style="text-align: center;">
+            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Aun no estas inscrito como monitor en una materia<br></strong>
+                Para mayor informacion, contacte con el encargado de la universidad.
+            </span>
+        </div>
+    <% end %>
+<%else%>
+    <div id="wb_TextContratoMonEst" style="text-align: center;">
+        <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+            <STRONG>USUARIO NO AUTORIZADO!</STRONG><br>No estas logueado en el sistema
+        </span> 
+    </div>
+<% end %>

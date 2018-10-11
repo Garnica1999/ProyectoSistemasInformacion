@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 class Students::SessionsController < Devise::SessionsController
+  layout 'students'
   #
   #skip_before_filter :verify_authenticity_token
   before_action :configure_permitted_parameters, if: :devise_controller?
   # GET /resource/sign_in
-  layout 'students'
   def new
     super
   end

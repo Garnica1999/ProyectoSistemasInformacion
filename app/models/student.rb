@@ -90,6 +90,15 @@ class Student < ApplicationRecord
 		end
 	end
 
+	def self.calcularDescuentoMatricula(id_student)
+		student = Student.find(id_student)
+		if student.es_egresado == 0
+			return @@PAGO_MONITOR_PREGRADO
+		else
+			return @@PAGO_MONITOR_POSTGRADO
+		end
+	end
+
 	def self.crearContrato(id_student, cod_materia)
 
 	end
@@ -110,5 +119,17 @@ class Student < ApplicationRecord
 			end
 		end
 		return arr
+	end
+
+	def self.obtenerFacultad(id_student)
+		id_program = Student.find(id_student).programa
+		school = Program.find(id_program).school
+		return school.nombre
+	end
+
+	def self.obtenerCarrera(id_student)
+		id_program = Student.find(id_student).programa
+		program = Program.find(id_program)
+		return program.nombre
 	end
 end

@@ -1266,9 +1266,9 @@ body
 }
 #wb_TextBienvenidaEst
 {
-   left: 527px;
-   top: 40px;
-   width: 396px;
+   left: 38px;
+   top: 13px;
+   width: 871px;
    height: 37px;
    visibility: visible;
    display: inline;
@@ -1281,8 +1281,8 @@ body
 }
 #wb_iconNotificacionesEst
 {
-   left: 960px;
-   top: 40px;
+   left: 922px;
+   top: 15px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1343,12 +1343,408 @@ body
 }
 #LayerUsuario_Container
 {
-   width: 1201px;
+   width: 1024px;
+}
+#wb_TextCopyright
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextCopyright
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #3A536B;
+   background-image: none;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridFooter
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+}
+#wb_LayoutGridFooter
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooter
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGridFooter .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooter > .row > .col-1, #LayoutGridFooter > .row > .col-2, #LayoutGridFooter > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooter > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextoRedesFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextAcercaDeFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoFacebook i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 8px;
+}
+#wb_IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+}
+#IconoTwitter i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 13px;
+}
+#wb_iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoInstagram i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+}
+#iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoYoutube i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_TextoAcercaDe
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextMenu1
+{
+   width: 226px;
+   height: 105px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 15px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   line-height: 1.0;
+}
+#wb_LayoutGridCopyright
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #233140;
+   background-image: none;
+}
+#wb_LayoutGridCopyright
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridCopyright
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridCopyright .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line15
+{
+   width: calc(100% - 0px);
+   height: 62px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line15
+{
+   border-color: #3A536B;
+   border-bottom-width: 62px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html1
+{
+   width: 290px;
+   height: 276px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line21
+{
+   width: calc(100% - 0px);
+   height: 91px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line21
+{
+   border-color: #3A536B;
+   border-bottom-width: 91px;
+}
+#wb_TextoFooterInfo
+{
+   visibility: visible;
+   display: block;
+}
+#wb_textoInfoFooter
+{
+   visibility: visible;
+   display: block;
 }
 #wb_iconCerrarSesionEst
 {
-   left: 1142px;
-   top: 125px;
+   left: 972px;
+   top: 15px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1365,7 +1761,7 @@ body
 {
    line-height: 33px;
    font-size: 33px;
-   width: 32px;
+   width: 27px;
 }
 }
 @media only screen and (min-width: 800px) and (max-width: 1023px)
@@ -1424,9 +1820,9 @@ body
 }
 #wb_TextBienvenidaEst
 {
-   left: 415px;
-   top: 40px;
-   width: 303px;
+   left: 24px;
+   top: 13px;
+   width: 661px;
    height: 37px;
    visibility: visible;
    display: inline;
@@ -1439,8 +1835,8 @@ body
 }
 #wb_iconNotificacionesEst
 {
-   left: 748px;
-   top: 40px;
+   left: 700px;
+   top: 15px;
    width: 36px;
    height: 33px;
    visibility: visible;
@@ -1501,12 +1897,408 @@ body
 }
 #LayerUsuario_Container
 {
-   width: 1201px;
+   width: 800px;
+}
+#wb_TextCopyright
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextCopyright
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #3A536B;
+   background-image: none;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridFooter
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+}
+#wb_LayoutGridFooter
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooter
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGridFooter .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooter > .row > .col-1, #LayoutGridFooter > .row > .col-2, #LayoutGridFooter > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooter > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextoRedesFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextAcercaDeFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoFacebook i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 8px;
+}
+#wb_IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+}
+#IconoTwitter i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 13px;
+}
+#wb_iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoInstagram i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+}
+#iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoYoutube i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_TextoAcercaDe
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextMenu1
+{
+   width: 226px;
+   height: 105px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 15px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   line-height: 1.0;
+}
+#wb_LayoutGridCopyright
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #233140;
+   background-image: none;
+}
+#wb_LayoutGridCopyright
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridCopyright
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridCopyright .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line15
+{
+   width: calc(100% - 0px);
+   height: 62px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line15
+{
+   border-color: #3A536B;
+   border-bottom-width: 62px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html1
+{
+   width: 290px;
+   height: 276px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line21
+{
+   width: calc(100% - 0px);
+   height: 91px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line21
+{
+   border-color: #3A536B;
+   border-bottom-width: 91px;
+}
+#wb_TextoFooterInfo
+{
+   visibility: visible;
+   display: block;
+}
+#wb_textoInfoFooter
+{
+   visibility: visible;
+   display: block;
 }
 #wb_iconCerrarSesionEst
 {
-   left: 1142px;
-   top: 125px;
+   left: 749px;
+   top: 15px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1523,7 +2315,7 @@ body
 {
    line-height: 33px;
    font-size: 33px;
-   width: 32px;
+   width: 27px;
 }
 }
 @media only screen and (min-width: 768px) and (max-width: 799px)
@@ -1582,9 +2374,9 @@ body
 }
 #wb_TextBienvenidaEst
 {
-   left: 399px;
-   top: 40px;
-   width: 290px;
+   left: 143px;
+   top: 13px;
+   width: 482px;
    height: 37px;
    visibility: visible;
    display: inline;
@@ -1597,8 +2389,8 @@ body
 }
 #wb_iconNotificacionesEst
 {
-   left: 719px;
-   top: 40px;
+   left: 660px;
+   top: 15px;
    width: 34px;
    height: 33px;
    visibility: visible;
@@ -1659,12 +2451,408 @@ body
 }
 #LayerUsuario_Container
 {
-   width: 1201px;
+   width: 768px;
+}
+#wb_TextCopyright
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextCopyright
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #3A536B;
+   background-image: none;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridFooter
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+}
+#wb_LayoutGridFooter
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooter
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGridFooter .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooter > .row > .col-1, #LayoutGridFooter > .row > .col-2, #LayoutGridFooter > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooter > .row > .col-1
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-2
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-3
+{
+   display: block;
+   width: 33.33333333%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextoRedesFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextAcercaDeFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoFacebook i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 8px;
+}
+#wb_IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+}
+#IconoTwitter i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 13px;
+}
+#wb_iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoInstagram i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+}
+#iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoYoutube i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_TextoAcercaDe
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextMenu1
+{
+   width: 226px;
+   height: 105px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 15px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   line-height: 1.0;
+}
+#wb_LayoutGridCopyright
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #233140;
+   background-image: none;
+}
+#wb_LayoutGridCopyright
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridCopyright
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridCopyright .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line15
+{
+   width: calc(100% - 0px);
+   height: 62px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line15
+{
+   border-color: #3A536B;
+   border-bottom-width: 62px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html1
+{
+   width: 290px;
+   height: 276px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line21
+{
+   width: calc(100% - 0px);
+   height: 91px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line21
+{
+   border-color: #3A536B;
+   border-bottom-width: 91px;
+}
+#wb_TextoFooterInfo
+{
+   visibility: visible;
+   display: block;
+}
+#wb_textoInfoFooter
+{
+   visibility: visible;
+   display: block;
 }
 #wb_iconCerrarSesionEst
 {
-   left: 1142px;
-   top: 125px;
+   left: 709px;
+   top: 15px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1681,7 +2869,7 @@ body
 {
    line-height: 33px;
    font-size: 33px;
-   width: 32px;
+   width: 27px;
 }
 }
 @media only screen and (max-width: 767px)
@@ -1741,9 +2929,9 @@ body
 #wb_TextBienvenidaEst
 {
    left: 15px;
-   top: 108px;
+   top: 0px;
    width: 290px;
-   height: 37px;
+   height: 74px;
    visibility: visible;
    display: inline;
 }
@@ -1755,8 +2943,8 @@ body
 }
 #wb_iconNotificacionesEst
 {
-   left: 140px;
-   top: 175px;
+   left: 111px;
+   top: 105px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1799,7 +2987,7 @@ body
 }
 #LayerUsuario
 {
-   height: 62px;
+   height: 153px;
    visibility: visible;
    display: inline;
    font-size: 13px;
@@ -1817,12 +3005,408 @@ body
 }
 #LayerUsuario_Container
 {
-   width: 1201px;
+   width: 320px;
+}
+#wb_TextCopyright
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextCopyright
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+#wb_LayoutGrid5
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #3A536B;
+   background-image: none;
+}
+#wb_LayoutGrid5
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid5
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGrid5 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid5 > .row > .col-1, #LayoutGrid5 > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid5 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGrid5 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutGridFooter
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+}
+#wb_LayoutGridFooter
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooter
+{
+   padding: 0px 15px 10px 15px;
+}
+#LayoutGridFooter .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooter > .row > .col-1, #LayoutGridFooter > .row > .col-2, #LayoutGridFooter > .row > .col-3
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooter > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutGridFooter > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextoRedesFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextAcercaDeFooter
+{
+   visibility: visible;
+   display: block;
+}
+#wb_iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoFacebook
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoFacebook i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 8px;
+}
+#wb_IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#IconoTwitter
+{
+   width: 16px;
+   height: 16px;
+}
+#IconoTwitter i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 13px;
+}
+#wb_iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0px 10px 0px 0px;
+   padding: 10px 10px 10px 10px;
+}
+#iconoInstagram
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoInstagram i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+   visibility: visible;
+   display: inline-block;
+   color: #FFFFFF;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #2C3E50;
+   background-image: none;
+   border-radius: 50%;
+   margin: 0;
+   padding: 10px 10px 10px 10px;
+}
+#iconoYoutube
+{
+   width: 16px;
+   height: 16px;
+}
+#iconoYoutube i
+{
+   line-height: 16px;
+   font-size: 16px;
+   width: 12px;
+}
+#wb_TextoAcercaDe
+{
+   visibility: visible;
+   display: block;
+}
+#wb_Text12
+{
+   visibility: visible;
+   display: block;
+}
+#wb_TextMenu1
+{
+   width: 290px;
+   height: 105px;
+   visibility: visible;
+   display: inline-block;
+   font-size: 15px;
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMenu1 span
+{
+   line-height: 1.0;
+}
+#wb_LayoutGridCopyright
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #233140;
+   background-image: none;
+}
+#wb_LayoutGridCopyright
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridCopyright
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridCopyright .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridCopyright > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Line15
+{
+   width: calc(100% - 0px);
+   height: 62px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line15
+{
+   border-color: #3A536B;
+   border-bottom-width: 62px;
+}
+#wb_LayoutGrid6
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid6
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid6
+{
+   padding: 0;
+}
+#LayoutGrid6 .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGrid6 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html1
+{
+   width: 290px;
+   height: 276px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line21
+{
+   width: calc(100% - 0px);
+   height: 91px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line21
+{
+   border-color: #3A536B;
+   border-bottom-width: 91px;
+}
+#wb_TextoFooterInfo
+{
+   visibility: visible;
+   display: block;
+}
+#wb_textoInfoFooter
+{
+   visibility: visible;
+   display: block;
 }
 #wb_iconCerrarSesionEst
 {
-   left: 1142px;
-   top: 125px;
+   left: 182px;
+   top: 105px;
    width: 40px;
    height: 33px;
    visibility: visible;
@@ -1839,6 +3423,6 @@ body
 {
    line-height: 33px;
    font-size: 33px;
-   width: 32px;
+   width: 27px;
 }
 }

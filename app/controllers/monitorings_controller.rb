@@ -10,6 +10,14 @@ class MonitoringsController < ApplicationController
 		@student = Student.find(params[:student_id])
 	end 
 
+	def contracts
+		@esMonitor = Student.verificarEstudiante(params[:student_id])
+
+		@program = Student.obtenerCarrera(params[:student_id])
+		@school = Student.obtenerFacultad(params[:student_id])
+		@pago = Student.calcularDescuentoMatricula(params[:student_id])
+	end
+
 	def inscribir
 		@student = Student.find(params[:student_id])
 		puts params[:codigo_materia]

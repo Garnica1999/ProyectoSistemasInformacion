@@ -57,9 +57,9 @@
                         <li><a role="menuitem" href="https://ava.ucatolica.edu.co/ava2/login/index.php" target="_blank" title="Aula Virtual AVA2"><i class="material-icons">&#xe878;</i><br>Aula&nbsp;Virtual</a></li>
                         <li>
                             <% if student_signed_in? %>
-                            <a role="menuitem" href="/students/index"><i class="material-icons">&#xe87c;</i><br>Estudiantes</a>
+                            <a role="menuitem" href=<%= student_index_path(current_student) %>><i class="material-icons">&#xe87c;</i><br>Servicios</a>
                             <% else %>
-                            <a role="menuitem" href="/students/sign_in"><i class="material-icons">&#xe87c;</i><br>Estudiantes</a>
+                            <a role="menuitem" href="/students/sign_in"><i class="material-icons">&#xe87c;</i><br>Servicios</a>
                             <% end %>
                         </li>
                     </ul>
