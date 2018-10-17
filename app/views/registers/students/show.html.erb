@@ -1,0 +1,79 @@
+<table id="TableContratoMonEst">
+    <tr>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Nombres Completos:</strong>
+                <%= @student.nombres + " " + @student.apellidos %>
+            </span>
+        </td>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Tipo de Estudiante: </strong>
+                <% if @student.es_egresado == 0 %>
+                    <%= "Estudiante" %>
+                <% else %>
+                    <%= "Egresado" %>
+                <% end %>
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Semestre: </strong>
+                <%=  @student.semesters.last.semestre%>
+            </span>
+        </td>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Facultad y Carrera: </strong>
+                <%= @school + " " + @program %>
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Descuento: </strong>
+                <%= @pago %>
+            </span>
+        </td>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Promedio: </strong>
+                <%= @student.promedio_carrera %>
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell0">
+            
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Codigo: </strong>
+                <%= @student.codigo %>
+            </span>
+        </td>
+        <td class="cell0">
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Documento: </strong>
+                <%= @student.documento %>
+            </span>
+        </td>
+    </tr>
+    <tr>
+        <td class="cell0">
+            
+            <span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                <strong>Monitor: </strong>
+                <% if @monitor %>
+                    <%= "Si" %>
+                <%else%>
+                    <%= "No" %>
+                <% end %>
+            </span>
+        </td>
+        <td class="cell0">
+            
+        </td>
+    </tr>
+</table>

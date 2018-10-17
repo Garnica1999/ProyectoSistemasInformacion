@@ -32,4 +32,12 @@ Rails.application.config.assets.precompile += %w( index.css
 	students/nuevo-estudiante.css
 	students/mensaje-insc-estudiante.css
 	students/contrato-estudiante.css
+	teachers/login.css
+	teachers/panel.css
+	academics/groups.css
+	academics/students/schedules.css
+	academics/students/reg-acad.css
+	academics/students/historial.css
+	academics/subjects/new.css
+	registers.css
 )

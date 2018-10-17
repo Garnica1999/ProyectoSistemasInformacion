@@ -1,27 +1,36 @@
 # frozen_string_literal: true
 
 class Teachers::SessionsController < Devise::SessionsController
-  # before_action :configure_sign_in_params, only: [:create]
-
+  layout 'teachers'
+  #skip_before_filter :verify_authenticity_token
+  before_action :configure_permitted_parameters, if: :devise_controller?
   # GET /resource/sign_in
-  # def new
-  #   super
-  # end
+  def new
+    super
+  end
 
   # POST /resource/sign_in
-  # def create
-  #   super
-  # end
+  def create
+    super
+  end
 
   # DELETE /resource/sign_out
-  # def destroy
-  #   super
-  # end
+  def destroy
+    super
+  end
 
-  # protected
+  protected
 
   # If you have extra params to permit, append them to the sanitizer.
-  # def configure_sign_in_params
-  #   devise_parameter_sanitizer.permit(:sign_in, keys: [:attribute])
-  # end
+  def configure_permitted_parameters
+    devise_parameter_sanitizer.permit(:sign_in) do |user_params|
+      user_params.permit(:codigo, :password)
+    end
+  end
+  def after_sign_in_path_for(resource)
+    request.env['omniauth.origin'] || stored_location_for(resource) || teachers_path
+  end
+  def after_sign_out_path_for(resource_or_scope)
+    new_teacher_session_path
+  end 
 end

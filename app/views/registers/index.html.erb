@@ -1,0 +1,47 @@
+<div id="wb_LayoutGridGruposAcademic">
+    <div id="LayoutGridGruposAcademic">
+        <div class="row">
+            <div class="col-1">
+                <div id="wb_LayoutContentGHrupos">
+                    <div id="LayoutContentGHrupos">
+                        <div class="row">
+                            <div class="col-1">
+                                <div id="wb_TextGestionGrupoAcademic">
+                                    <span style="color:#808080;"><strong>Registro Academico</strong></span>
+                                </div>
+                                <hr id="LineSeparatorGroupAcademic">
+                                <table id="TableGruposAcademic">
+                                    <tr>
+                                        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>ID</strong></span></td>
+                                        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Codigo</strong></span></td>
+                                        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Estudiante</strong></span></td>
+                                        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Notas</strong></span></td>
+                                        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Ver Estudiante</strong></span></td>
+                                    </tr>
+                                    <% @students.each do |student| %>
+                                        <tr>
+                                            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= student.id.to_s %></span></td>
+                                            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= student.codigo.to_s %></span></td>
+                                            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= Student.obtenerNombre(student.id) %></span></td>
+                                            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <a href=<%= "/academics/students/" + student.id.to_s + "/schedules" %>>Editar</a>
+                                                </span>
+                                            </td>
+                                            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <a href=<%= "/registers/students/" + student.id.to_s%>>Ver</a>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    <% end %>
+                                </table>
+                                <div id="wb_ButtonRegistrarGroupAcademic" style= "padding-top: 15px; padding-bottom: 15px;">
+                                    <a class="ui-button ui-widget ui-corner-all" id="ButtonRegistrarGroupAcademic" href=<%= "/academics/students/new" %> target="_self" title="Agregar Estudiante" id="ButtonRegistrarGroupAcademic" class="boton">Añadir Estudiante</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

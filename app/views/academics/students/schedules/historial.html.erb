@@ -1,0 +1,99 @@
+<div id="wb_LayoutGridEstud">
+    <div id="LayoutGridEstud">
+        <div class="row">
+            <div class="col-1">
+                <div id="wb_LayoutGridFormEstud">
+                    <div id="LayoutGridFormEstud">
+                        <div class="row">
+                            <div class="col-1">
+                                <div id="wb_TextTituloHistorialAcademico">
+                                    <span style="color:#000000;font-family:'Segoe UI';font-size:32px;"><strong>Historial de Notas</strong></span>
+                                </div>
+                                <table id="TableHistorialAcademico">
+                                    <tr>
+                                        <td class="cell0">
+                                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                                <strong>Codigo</strong>
+                                            </span>
+                                        </td>
+                                        <td class="cell0">
+                                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                                <strong>Nombre</strong>
+                                            </span>
+                                        </td>
+                                        <td class="cell0">
+                                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                                <strong>Creditos</strong>
+                                            </span>
+                                        </td>
+                                        <td class="cell0">
+                                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                                <strong>Semestre</strong>
+                                            </span>
+                                        </td>
+                                        <td class="cell0">
+                                            <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:24px;line-height:32px;">
+                                                <strong>Nota Final</strong>
+                                            </span>
+                                        </td>
+                                    </tr>
+                                    <% @logs.each do |log| %>
+                                        <% arr = Subject.obtenerInfoMateria(log.subject_id) %>
+                                        <tr>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <%= arr.at(0) %>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <%= arr.at(1)%>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <%= arr.at(2)%>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <%= Semester.obtenerSemestreporID(log.semester_id) %>
+                                                </span>
+                                            </td>
+                                            <td class="cell0">
+                                                <span style="color:#4F4F4F;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                                                    <%= log.nota_final%>
+                                                </span>
+                                            </td>
+                                        </tr>
+                                    <% end %>
+
+                                </table>
+                                <hr id="LineSepHistorialNotas">
+                                <%= form_tag(create_historial_schedule_student_path) do%>
+                                    <%= select_tag :codigo_materia, options_for_select(Subject.cargarMaterias), prompt: "Seleccione la materia", id: "ComboboxMateriasHistAcad" %>
+
+                                    <hr id="LineSepHistorialNotas2">
+
+                                    <%= text_field_tag 'promedio_carrera', nil, placeholder: "Promedio del estudiante (Opcional)", class: "EditBox", id: "EditboxPromedioCarreraHistMat"%>
+                                    <hr id="LineSepHistorialNotas3">
+
+                                    <%= text_field_tag 'nota_materia', nil, placeholder: "Nota de la materia (Opcional)", class: "EditBox", id: "EditboxNotaMateriaHistAcad"%>
+
+                                    <hr id="LineSepHistorialNotas4">
+                                    <div id="wb_ThemeableButtonActualizarDatosHistAcad">
+                                        <%= submit_tag "Actualizar Datos", id: "ThemeableButtonActualizarDatosHistAcad", class: "boton", style: "color: #FFFFFF"%> 
+                                    </div>
+
+                                <%end%>
+                                <div id="wb_TextErrorHistorialAcad">
+                                    <span style="color:#FF0000;font-family:'Segoe UI';font-size:16px;"> </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

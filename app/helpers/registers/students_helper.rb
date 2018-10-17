@@ -1,0 +1,2 @@
+module Registers::StudentsHelper
+end

@@ -1,0 +1,38 @@
+<div id="wb_TextGestionGrupoAcademic">
+    <span style="color:#808080;"><strong>Gestion de Grupos</strong></span>
+</div>
+<table id="TableGruposAcademic">
+    <tr>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>ID</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Codigo</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Materia</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Profesor</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Editar</strong></span></td>
+    </tr>
+    <% @groups.each do |group| %>
+        <tr>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:14px;line-height:32px;"><%=group.id %></span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:14px;line-height:32px;"><%=group.codigo %></span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:14px;line-height:32px;">
+                    <% if group.subject_id != nil %>
+                        <%=Subject.obtenerMateriaPorID(group.subject_id) %>
+                    <% else %>
+                        <%="Sin Materia" %>
+                    <% end %>    
+                </span>
+            </td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:14px;line-height:32px;">
+                    <% if group.teacher_id != nil %>
+                        <%=Teacher.obtenerNombresPorID(group.teacher_id) %>
+                    <% else %>
+                        <%="Sin profesor" %>
+                    <% end %>  
+                </span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:14px;line-height:32px;">
+                    <%=link_to "Editar", controller: "groups", action: "edit", id: group.id.to_s %>
+                </span>
+            </td>
+        </tr>  
+    <% end %>
+    
+</table>

@@ -1,0 +1,30 @@
+<%= form_for @group, url: new_academics_group_path, method: :post, html: { id: "LayoutContentGHrupos" } do |f| %>
+    <div class="row">
+        <div class="col-1">
+            
+
+            <hr id="LineSeparatorGroupAcademic">
+            <div id="wb_TextEditGrupo">
+                <span style="color:#808080;"><strong><%= title %> Grupo</strong></span>
+            </div>
+
+            <%= f.text_field :codigo, placeholder: "Codigo del grupo", class: "EditBox", value: "", type: "number", id: "EditboxCodigoGrupoAcademic"%>
+
+            <hr id="LineSeparatorGroupAcademic2">
+
+            <%= f.select :subject_id, Subject.cargarMaterias,{ prompt: "Seleccione la materia"}, id: "ComboboxSubjectGroupAcademic" %>
+
+            <hr id="LineGroupAcademic2">
+
+            <%= f.select :teacher_id, Teacher.cargarProfesores,{ prompt: "Seleccione la materia"}, id: "ComboboxTeacherGroupAcademic" %>
+
+            <hr id="LineGroupAcademic3">
+
+            <div id="wb_ButtonRegistrarGroupAcademic">
+                <%= f.submit "Registrar", id: "ButtonRegistrarGroupAcademic", class: "boton", style: "color: #FFFFFF"%> 
+            </div>
+
+            <hr id="LineGroupAcademic5">
+        </div>
+    </div>
+<% end %>

@@ -1,0 +1,31 @@
+<table id="TableMateriasRegistro">
+    <tr>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>ID</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Codigo</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Materia</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Tutor</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Creditos</strong></span></td>
+        <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Ver/Editar</strong></span></td>
+    </tr>
+    <% @subjects.each do |subject| %>
+        <tr>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subject.id.to_s %></span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subject.codigo %></span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subject.nombre %></span></td>
+            <td class="cell0">
+                <span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                    <% if subject.student_id != nil%>
+                        <%= Student.obtenerNombre(subject.student_id) %>
+                    <% else %>
+                        No asignado
+                    <% end %>
+                </span>
+            </td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subject.creditos %></span></td>
+            <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;">
+                    <a href=<%= "/academics/subjects/" + subject.id.to_s + "/edit" %>>Ver/Editar</a>
+                </span>
+            </td>
+        </tr>
+    <% end %>
+</table>

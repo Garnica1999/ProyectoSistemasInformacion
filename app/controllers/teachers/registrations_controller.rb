@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 class Teachers::RegistrationsController < Devise::RegistrationsController
+  layout 'teachers'
   # before_action :configure_sign_up_params, only: [:create]
   # before_action :configure_account_update_params, only: [:update]
 
@@ -8,11 +9,24 @@ class Teachers::RegistrationsController < Devise::RegistrationsController
   # def new
   #   super
   # end
+  
+  #POST /resource
+  def create
+    especialidad = params[:teacher][:especialidad]
+    @teacher = Teacher.new(teacher_params)
+    @teacher.especialidad = especialidad
+    
+    if @teacher.save
+      redirect_to @teacher
+    else
+      puts @teacher.errors.inspect
+      render :new
+    end
+  end
 
-  # POST /resource
-  # def create
-  #   super
-  # end
+  def edit
+    @teacher = Teacher.find(params[:id])
+  end
 
   # GET /resource/edit
   # def edit
@@ -59,4 +73,9 @@ class Teachers::RegistrationsController < Devise::RegistrationsController
   # def after_inactive_sign_up_path_for(resource)
   #   super(resource)
   # end
+  private
+
+  def teacher_params
+    params.require(:teacher).permit(:email, :password, :password_confirmation, :nombres, :apellidos, :codigo)
+  end
 end

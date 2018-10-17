@@ -1,0 +1,1369 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridEstud
+{
+   box-sizing: border-box;
+   padding: 0px 200px 0px 200px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 200px;
+   padding-left: 200px;
+   position: relative;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridEstud:before,
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:before,
+#LayoutGridEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridEstud:after,
+#LayoutGridEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#LineSepHistorialNotas2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridFormEstud
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridFormEstud
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridFormEstud:before,
+#LayoutGridFormEstud:after,
+#LayoutGridFormEstud .row:before,
+#LayoutGridFormEstud .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridFormEstud:after,
+#LayoutGridFormEstud .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridFormEstud > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextTituloHistorialAcademico 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 25px 0px 25px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextTituloHistorialAcademico div
+{
+   text-align: center;
+}
+#wb_TextErrorHistorialAcad 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 30px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextErrorHistorialAcad div
+{
+   text-align: left;
+}
+#TableHistorialAcademico
+{
+   border: 1px solid #BFBFBF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableHistorialAcademico td
+{
+   padding: 0;
+}
+#TableHistorialAcademico td div
+{
+   white-space: nowrap;
+}
+#TableHistorialAcademico .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 1px #BFBFBF solid;
+   text-align: left;
+   vertical-align: top;
+}
+#TableHistorialAcademico tr:nth-child(odd)
+{
+   background-color: #F2F2F2;
+}
+#LineSepHistorialNotas
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 46px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxPromedioCarreraHistMat:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxPromedioCarreraHistMat::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxPromedioCarreraHistMat::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#ThemeableButtonActualizarDatosHistAcad
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 16px;
+   font-style: normal;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   margin: 0;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ThemeableButtonActualizarDatosHistAcad
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ThemeableButtonActualizarDatosHistAcad :hover
+{
+   color: #2B2B2B;
+}
+#ThemeableButtonActualizarDatosHistAcad :active
+{
+   color: #FFFFFF;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-corner-all, #wb_ThemeableButtonActualizarDatosHistAcad .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-corner-all, #wb_ThemeableButtonActualizarDatosHistAcad .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #0076C0;
+   color: #FFFFFF;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-state-hover, #wb_ThemeableButtonActualizarDatosHistAcad .ui-button:hover
+{
+   border-color: #0069A8;
+   background-color: #0069A8;
+   background-image: none;
+   color: #DCDCDC;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-state-active, #wb_ThemeableButtonActualizarDatosHistAcad .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-button .ui-icon
+{
+   background-image: url(images/Historial_de_Notas-ThemeableButtonActualizarDatosHistAcad-default.png);
+   background-position: 0 0;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-button:hover .ui-icon
+{
+   background-image: url(images/Historial_de_Notas-ThemeableButtonActualizarDatosHistAcad-hover.png);
+   background-position: 0 0;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-button:active .ui-icon
+{
+   background-image: url(images/Historial_de_Notas-ThemeableButtonActualizarDatosHistAcad-active.png);
+   background-position: 0 0;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineSepHistorialNotas3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxNotaMateriaHistAcad:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxNotaMateriaHistAcad::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxNotaMateriaHistAcad::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#LineSepHistorialNotas4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 25px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxMateriasHistAcad
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxMateriasHistAcad:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#TableHistorialAcademico
+{
+   display: table;
+   width: 100%;
+   height: 692px;
+   z-index: 1;
+}
+#EditboxPromedioCarreraHistMat
+{
+   display: inline-block;
+   width: 266px;
+   height: 60px;
+   z-index: 5;
+}
+#ComboboxMateriasHistAcad
+{
+   display: inline-block;
+   width: 266px;
+   height: 60px;
+   z-index: 3;
+}
+#LineSepHistorialNotas2
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#LineSepHistorialNotas3
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#LineSepHistorialNotas4
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   display: inline-block;
+   width: 217px;
+   height: 60px;
+   z-index: 9;
+}
+#EditboxNotaMateriaHistAcad
+{
+   display: inline-block;
+   width: 266px;
+   height: 60px;
+   z-index: 7;
+}
+#LineSepHistorialNotas
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#ThemeableButtonActualizarDatosHistAcad
+{
+   width: 100%;
+   height: 100%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepHistorialNotas2
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloHistorialAcademico
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloHistorialAcademico
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextErrorHistorialAcad
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorHistorialAcad
+{
+   margin: 0;
+   padding: 0;
+}
+#TableHistorialAcademico
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 1px solid #C0C0C0;
+}
+#LineSepHistorialNotas
+{
+   width: calc(100% - 0px);
+   height: 46px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 46px;
+}
+#EditboxPromedioCarreraHistMat
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   width: 217px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxNotaMateriaHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSepHistorialNotas4
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxMateriasHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepHistorialNotas2
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloHistorialAcademico
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloHistorialAcademico
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextErrorHistorialAcad
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorHistorialAcad
+{
+   margin: 0;
+   padding: 0;
+}
+#TableHistorialAcademico
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepHistorialNotas
+{
+   width: calc(100% - 0px);
+   height: 46px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 46px;
+}
+#EditboxPromedioCarreraHistMat
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   width: 217px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxNotaMateriaHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSepHistorialNotas4
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxMateriasHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepHistorialNotas2
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloHistorialAcademico
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloHistorialAcademico
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextErrorHistorialAcad
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorHistorialAcad
+{
+   margin: 0;
+   padding: 0;
+}
+#TableHistorialAcademico
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepHistorialNotas
+{
+   width: calc(100% - 0px);
+   height: 46px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 46px;
+}
+#EditboxPromedioCarreraHistMat
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   width: 217px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxNotaMateriaHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSepHistorialNotas4
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxMateriasHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridEstud
+{
+   padding: 0px 200px 0px 200px;
+}
+#LayoutGridEstud .row
+{
+   margin-right: -200px;
+   margin-left: -200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   padding-right: 200px;
+   padding-left: 200px;
+}
+#LayoutGridEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepHistorialNotas2
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#wb_LayoutGridFormEstud
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFormEstud
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFormEstud
+{
+   padding: 0;
+}
+#LayoutGridFormEstud .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridFormEstud > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloHistorialAcademico
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloHistorialAcademico
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_TextErrorHistorialAcad
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextErrorHistorialAcad
+{
+   margin: 0;
+   padding: 0;
+}
+#TableHistorialAcademico
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepHistorialNotas
+{
+   width: calc(100% - 0px);
+   height: 46px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 46px;
+}
+#EditboxPromedioCarreraHistMat
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#wb_ThemeableButtonActualizarDatosHistAcad
+{
+   width: 217px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#EditboxNotaMateriaHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSepHistorialNotas4
+{
+   width: calc(100% - 0px);
+   height: 25px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepHistorialNotas4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 25px;
+}
+#ComboboxMateriasHistAcad
+{
+   width: 266px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+}

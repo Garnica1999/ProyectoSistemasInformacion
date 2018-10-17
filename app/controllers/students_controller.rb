@@ -44,6 +44,17 @@ class StudentsController < ApplicationController
     #if @student.save
   	#	redirect_to @student
   	#end
+    program = params[:student][:programa]
+    sem = params[:student][:semesters]
+    @student = Student.new(student_params)
+
+    programs = Program.where(nombre: program.split("-").at(1))
+    semester = Semester.find(sem)
+    @student.semesters << semester
+    programs.each do |program|
+      @student.programa = program.id
+      @student.matricula = program.matricula.to_f
+    end
     @student = Student.new(student_params)
     if @student.save
       redirect_to @student
@@ -60,7 +71,18 @@ class StudentsController < ApplicationController
   end
   #PUT /students/:id
   def update
+    program = params[:student][:programa]
+    sem = params[:student][:semesters]
     @student = Student.find(params[:id])
+
+    programs = Program.where(nombre: program.split("-").at(1))
+    semester = Semester.find(sem)
+    @student.semesters << semester
+    programs.each do |program|
+      @student.programa = program.id
+      @student.matricula = program.matricula.to_f
+    end
+    
     if @student.update(student_params)
       redirect_to @student
     else

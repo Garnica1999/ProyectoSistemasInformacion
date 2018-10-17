@@ -10,14 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181007061021) do
+ActiveRecord::Schema.define(version: 20181015021623) do
 
   create_table "groups", force: :cascade do |t|
-    t.integer "codigo"
+    t.integer "codigo", null: false
     t.integer "subject_id"
     t.integer "teacher_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["codigo"], name: "index_groups_on_codigo", unique: true
     t.index ["subject_id"], name: "index_groups_on_subject_id"
     t.index ["teacher_id"], name: "index_groups_on_teacher_id"
   end
@@ -29,6 +30,13 @@ ActiveRecord::Schema.define(version: 20181007061021) do
     t.index ["group_id"], name: "index_groups_schedules_on_group_id"
     t.index ["schedule_id"], name: "index_groups_schedules_on_schedule_id"
     t.index ["subject_id"], name: "index_groups_schedules_on_subject_id"
+  end
+
+  create_table "groups_students", id: false, force: :cascade do |t|
+    t.integer "student_id"
+    t.integer "group_id"
+    t.index ["group_id"], name: "index_groups_students_on_group_id"
+    t.index ["student_id"], name: "index_groups_students_on_student_id"
   end
 
   create_table "logs", force: :cascade do |t|
@@ -144,7 +152,7 @@ ActiveRecord::Schema.define(version: 20181007061021) do
   end
 
   create_table "teachers", force: :cascade do |t|
-    t.integer "documento", null: false
+    t.integer "codigo", null: false
     t.string "nombres", null: false
     t.string "apellidos", null: false
     t.string "especialidad", null: false
@@ -155,7 +163,7 @@ ActiveRecord::Schema.define(version: 20181007061021) do
     t.datetime "remember_created_at"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["documento"], name: "index_teachers_on_documento", unique: true
+    t.index ["codigo"], name: "index_teachers_on_codigo", unique: true
     t.index ["email"], name: "index_teachers_on_email", unique: true
     t.index ["reset_password_token"], name: "index_teachers_on_reset_password_token", unique: true
   end

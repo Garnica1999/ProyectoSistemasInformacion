@@ -10,12 +10,25 @@ Rails.application.routes.draw do
   get 'students/:student_id/monitorings/index', to: 'monitorings#index'
   get 'students/:student_id/monitorings/contracts', to: 'monitorings#contracts', as: :contract_student_monitoring
 
-  
-  
+  post 'academics/students/:student_id/schedules', to: 'academics/students/schedules#index', as: :schedule_materias_academics
+  get 'academics/students/:student_id/schedules/historial', to: 'academics/students/schedules#historial', as: :historial_schedule_student
+  post 'academics/students/:student_id/schedules/historial', to: 'academics/students/schedules#chistorial', as: :create_historial_schedule_student
+
+  get 'academics/groups/index', as: :academic_group
+  get 'academics/schedules/index', as: :academic_schedule
+  get 'academics/students/index', to: 'academics/students#index', as: :academic_student
+  post 'academics/students/new', to: 'academics/students#create'
+  get 'academics/students/schedules/index', to: 'academics/students/schedules#index'
+  post 'academics/groups/new', to: 'academics/groups#create'
+
+  post 'academics/subjects/new', to: 'academics/subjects#create'
   get 'registers/students/ver'
   get 'teachers/index'
   get 'registers/schedules/index'
   get 'registers/schedules/ver'
+
+  get 'registers/', to: 'registers#index'
+
 
   devise_for :students, controllers: {
     registrations: 'students/registrations',
@@ -43,21 +56,40 @@ Rails.application.routes.draw do
     registrations: 'teachers/registrations',
     sessions: 'teachers/sessions'}
 
-
   #GET - SE PUEDE ACCEDER DESDE LAS RUTAS DESDE LA BARRA DE DIRECCIONES
   #POST - EL MAS SEGURO. SOLO SE PUEDE ACCEDER A TRAVES DE LINKS Y ACCIONES DE LA WEB
 
 
   #Definicio de recursos 
 
-
+  resources :teachers
+  
   resources :students do
     resources :schedules
     resources :monitorings
   end
-  resources :teachers
   
+  resources :resources do
+    resources :teachers
+  end
+
+  #CURSOS, HORARIOS, SALONES, MATRICULAS
+  namespace :academics do
+    resources :subjects
+    resources :students do
+      scope module: :students do 
+        resources :schedules
+      end
+    end
+    resources :groups
+  end
+
+  namespace :registers do
+    resources :notes
+    resources :students
+  end
   
+  resources :academics
 
   #deinifion de la ruta de arranque del servidor web
   root 'inicio#index'

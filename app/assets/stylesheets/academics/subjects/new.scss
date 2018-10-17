@@ -1,0 +1,1915 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridMateriasRegistro
+{
+   box-sizing: border-box;
+   padding: 0px 170px 0px 170px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridMateriasRegistro .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 170px;
+   padding-left: 170px;
+   position: relative;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridMateriasRegistro:before,
+#LayoutGridMateriasRegistro:after,
+#LayoutGridMateriasRegistro .row:before,
+#LayoutGridMateriasRegistro .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridMateriasRegistro:after,
+#LayoutGridMateriasRegistro .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContentGMateriasRegistro
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContentGMateriasRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   float: left;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContentGMateriasRegistro:before,
+#LayoutContentGMateriasRegistro:after,
+#LayoutContentGMateriasRegistro .row:before,
+#LayoutContentGMateriasRegistro .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContentGMateriasRegistro:after,
+#LayoutContentGMateriasRegistro .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextMateriasRegistroPrincipal 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 0px 30px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextMateriasRegistroPrincipal div
+{
+   text-align: center;
+}
+#TableMateriasRegistro
+{
+   border: 0px solid #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableMateriasRegistro td
+{
+   padding: 8px 8px 8px 8px;
+}
+#TableMateriasRegistro td div
+{
+   white-space: nowrap;
+}
+#TableMateriasRegistro .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 2px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: left;
+   vertical-align: top;
+}
+#TableMateriasRegistro .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: left;
+   vertical-align: top;
+}
+#TableMateriasRegistro tr:nth-child(odd)
+{
+   background-color: #F9F9F9;
+}
+#LineSepMateriasRegistro
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextMateriasRegistroMedio 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 15px 0px 15px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextMateriasRegistroMedio
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextMateriasRegistroMedio div
+{
+   text-align: center;
+}
+#EditboxCodigoMatReg:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxCodigoMatReg::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxCodigoMatReg::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#LineMateriasRegistro2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxSemestreMatReg
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxSemestreMatReg:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineMateriasRegistro3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineMateriasRegistro4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonRegistrarMateriasRegistro
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   margin: 0;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonRegistrarMateriasRegistro
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonRegistrarMateriasRegistro :hover
+{
+   color: #2B2B2B;
+}
+#ButtonRegistrarMateriasRegistro :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-corner-all, #wb_ButtonRegistrarMateriasRegistro .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-corner-all, #wb_ButtonRegistrarMateriasRegistro .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-state-hover, #wb_ButtonRegistrarMateriasRegistro .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-state-active, #wb_ButtonRegistrarMateriasRegistro .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-button .ui-icon
+{
+   background-image: url(images/new-ButtonRegistrarMateriasRegistro-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-button:hover .ui-icon
+{
+   background-image: url(images/new-ButtonRegistrarMateriasRegistro-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-button:active .ui-icon
+{
+   background-image: url(images/new-ButtonRegistrarMateriasRegistro-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarMateriasRegistro .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineMateriasRegistro5
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxMateriaMatReg:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxMateriaMatReg::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxMateriaMatReg::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#EditboxCreditosMatReg:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxCreditosMatReg::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxCreditosMatReg::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#LineMateriasRegistro6
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxDocente
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxDocente:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineMateriasRegistro7
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSepMateriasRegistro
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   z-index: 34;
+}
+#ButtonRegistrarMateriasRegistro
+{
+   width: 100%;
+   height: 100%;
+}
+#LineMateriasRegistro2
+{
+   display: block;
+   width: 100%;
+   z-index: 5;
+}
+#LineMateriasRegistro3
+{
+   display: block;
+   width: 100%;
+   z-index: 7;
+}
+#LineMateriasRegistro4
+{
+   display: block;
+   width: 100%;
+   z-index: 9;
+}
+#TableMateriasRegistro
+{
+   display: table;
+   width: 100%;
+   height: 678px;
+   z-index: 1;
+}
+#LineMateriasRegistro5
+{
+   display: block;
+   width: 100%;
+   z-index: 15;
+}
+#LineMateriasRegistro6
+{
+   display: block;
+   width: 100%;
+   z-index: 11;
+}
+#LineMateriasRegistro7
+{
+   display: block;
+   width: 100%;
+   z-index: 13;
+}
+#EditboxCodigoMatReg
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 6;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 14;
+}
+#ComboboxDocente
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 12;
+}
+#EditboxCreditosMatReg
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 10;
+}
+#EditboxMateriaMatReg
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 8;
+}
+#ComboboxSemestreMatReg
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 4;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridMateriasRegistro
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridMateriasRegistro .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGMateriasRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGMateriasRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#LineSepMateriasRegistro
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepMateriasRegistro
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextMateriasRegistroMedio
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroMedio
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSemestreMatReg
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineMateriasRegistro4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxMateriaMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxCreditosMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxDocente
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro7
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro7
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridMateriasRegistro
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridMateriasRegistro .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGMateriasRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGMateriasRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepMateriasRegistro
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepMateriasRegistro
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextMateriasRegistroMedio
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroMedio
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSemestreMatReg
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineMateriasRegistro4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxMateriaMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxCreditosMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxDocente
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro7
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro7
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridMateriasRegistro
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridMateriasRegistro .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGMateriasRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGMateriasRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepMateriasRegistro
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepMateriasRegistro
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextMateriasRegistroMedio
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroMedio
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSemestreMatReg
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineMateriasRegistro4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxMateriaMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxCreditosMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxDocente
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro7
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro7
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridMateriasRegistro
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridMateriasRegistro .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGMateriasRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGMateriasRegistro
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContentGMateriasRegistro .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContentGMateriasRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroPrincipal
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableMateriasRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSepMateriasRegistro
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepMateriasRegistro
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextMateriasRegistroMedio
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextMateriasRegistroMedio
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSemestreMatReg
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineMateriasRegistro4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarMateriasRegistro
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxMateriaMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#EditboxCreditosMatReg
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineMateriasRegistro6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxDocente
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineMateriasRegistro7
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineMateriasRegistro7
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}

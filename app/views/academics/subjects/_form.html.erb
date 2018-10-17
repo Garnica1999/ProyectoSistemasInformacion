@@ -1,0 +1,25 @@
+<div id="wb_TextMateriasRegistroMedio">
+    <span style="color:#808080;"><strong><%= operacion %> Materia</strong></span>
+</div>
+<%= form_for @subject, url: new_academics_subject_path, method: :post, html: { id: "LayoutContentGHrupos" } do |f| %>
+
+	<%= f.select :semester_id, Semester.obtenerSemestres,{ prompt: "Seleccione un semestre"}, id: "ComboboxSemestreMatReg" %>
+	<hr id="LineMateriasRegistro2">
+
+	<%= f.text_field :codigo, placeholder: "Codigo", class: "EditBox", value: "", type: "number", id: "EditboxCodigoMatReg"%>
+
+	<hr id="LineMateriasRegistro3">
+
+	<%= f.text_field :nombre, placeholder: "Nombre de la materia", class: "EditBox", value: "", type: "text", id: "EditboxMateriaMatReg"%>
+
+	<hr id="LineMateriasRegistro4">
+
+	<%= f.text_field :creditos, placeholder: "Creditos de la materia", class: "EditBox", value: "", type: "text", id: "EditboxCreditosMatReg"%>
+
+	<hr id="LineMateriasRegistro6">
+
+	<div id="wb_ButtonRegistrarMateriasRegistro", style = "padding-bottom: 15px;">
+
+	    <%= f.submit "Registrar/Editar", id: "ButtonRegistrarMateriasRegistro", class: "boton", style: 'color: #FFFFFF;'%>
+	</div>
+<% end %>

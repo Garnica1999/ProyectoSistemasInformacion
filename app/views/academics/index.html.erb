@@ -1,0 +1,49 @@
+<% if teacher_signed_in? %>
+	<% if current_teacher.especialidad == "Administrador" %>
+	<div id="wb_LayoutGrid1">
+	    <div id="LayoutGrid1">
+	        <div class="row">
+	            <div class="col-1">
+	            	<hr id="Line2NewEst">
+	                <div id="wb_ShapePanel1">
+	                    <a href=<%= "/academics/groups/"%>><div id="ShapePanel1"><div id="ShapePanel1_text"><span style="color:#FFFFFF;font-family:'Segoe UI';font-size:29px;"><strong>Gestionar Grupos</strong></span></div></div></a>
+	                </div>
+					<hr id="Line4NewEst">
+	                <div id="wb_ShapePanel1">
+	                    <a href=<%= "/academics/subjects/"%>>
+	                    	<div id="ShapePanel1">
+	                    		<div id="ShapePanel1_text">
+	                    			<span style="color:#FFFFFF;font-family:'Segoe UI';font-size:29px;">
+	                    				<strong>Gestionar Materias</strong>
+	                    			</span>
+	                    		</div>
+	                    	</div>
+	                	</a>
+	                </div>
+	            </div>
+	            <div class="col-2">
+	            	<hr id="Line3NewEst">
+	                <div id="wb_ShapePanel2">
+	                    <a href=<%= "academics/students" %>><div id="ShapePanel2"><div id="ShapePanel2_text"><span style="color:#FFFFFF;font-family:'Segoe UI';font-size:29px;"><strong>Gestionar Horarios</strong></span></div></div></a>
+	                </div>
+	            </div>
+	            <div class="col-3">
+	            	<hr id="Line4NewEst">
+	                <div id="wb_ShapePanel3">
+	                    <div id="ShapePanel3"><div id="ShapePanel3_text"><span style="color:#FFFFFF;font-family:'Segoe UI';font-size:29px;"><strong>Gestionar Salones</strong></span></div></div>
+	                </div>
+	            </div>
+	            <div class="col-4">
+	            	<hr id="Line1NewEst">
+	                <div id="wb_ShapePanel4">
+	                    <a href=<%= "/academics/students" %>><div id="ShapePanel4"><div id="ShapePanel4_text"><span style="color:#FFFFFF;font-family:'Segoe UI';font-size:29px;"><strong>Gestionar Matriculas</strong></span></div></div></a>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</div>
+	<% end %>
+<%else%>
+	<h1>Acceso Denegado, no tines permiso para entrar a esta pagina</h1>
+	<p>Si tienes algun problema en entrar a esta pagina, contactate con el soporte de la Universidad</p>
+<% end %>

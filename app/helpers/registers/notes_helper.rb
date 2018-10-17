@@ -1,0 +1,2 @@
+module Registers::NotesHelper
+end

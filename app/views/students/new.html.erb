@@ -1,13 +1,17 @@
-<div id="wb_LayoutGridEstud">
-    <div id="LayoutGridEstud">
-        <div class="row">
-            <div class="col-1">
-                <hr id="Line1NewEst">
-                <div id="wb_LayoutGridFormEstud">
-                    
-                    <%= render "students/form", name: "Registrar" %>
+<% if teacher_signed_in? %>
+    <% if current_teacher.especialidad == "Administrador" %>
+        <div id="wb_LayoutGridEstud">
+            <div id="LayoutGridEstud">
+                <div class="row">
+                    <div class="col-1">
+                        <hr id="Line1NewEst">
+                        <div id="wb_LayoutGridFormEstud">
+                            
+                            <%= render "students/form", name: "Registrar" %>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    <% end %>
+<% end %>

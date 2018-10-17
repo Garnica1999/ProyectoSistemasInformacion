@@ -1,0 +1,1649 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridGruposAcademic
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridGruposAcademic
+{
+   box-sizing: border-box;
+   padding: 0px 170px 0px 170px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridGruposAcademic .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 170px;
+   padding-left: 170px;
+   position: relative;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridGruposAcademic:before,
+#LayoutGridGruposAcademic:after,
+#LayoutGridGruposAcademic .row:before,
+#LayoutGridGruposAcademic .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridGruposAcademic:after,
+#LayoutGridGruposAcademic .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_LayoutContentGHrupos
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContentGHrupos
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContentGHrupos .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   float: left;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContentGHrupos:before,
+#LayoutContentGHrupos:after,
+#LayoutContentGHrupos .row:before,
+#LayoutContentGHrupos .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContentGHrupos:after,
+#LayoutContentGHrupos .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContentGHrupos > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextGestionGrupoAcademic 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 0px 30px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextGestionGrupoAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextGestionGrupoAcademic div
+{
+   text-align: center;
+}
+#TableGruposAcademic
+{
+   border: 0px solid #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableGruposAcademic td
+{
+   padding: 8px 8px 8px 8px;
+}
+#TableGruposAcademic td div
+{
+   white-space: nowrap;
+}
+#TableGruposAcademic .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 2px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+}
+#TableGruposAcademic .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+}
+#TableGruposAcademic tr:nth-child(odd)
+{
+   background-color: #F9F9F9;
+}
+#LineSeparatorGroupAcademic
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextEditGrupo 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 15px 0px 15px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextEditGrupo
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextEditGrupo div
+{
+   text-align: center;
+}
+#EditboxCodigoGrupoAcademic:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxCodigoGrupoAcademic::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxCodigoGrupoAcademic::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#LineSeparatorGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxSubjectGroupAcademic
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxSubjectGroupAcademic:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ComboboxTeacherGroupAcademic
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxTeacherGroupAcademic:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineGroupAcademic3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonRegistrarGroupAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   margin: 0;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonRegistrarGroupAcademic
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonRegistrarGroupAcademic :hover
+{
+   color: #2B2B2B;
+}
+#ButtonRegistrarGroupAcademic :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-corner-all, #wb_ButtonRegistrarGroupAcademic .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-corner-all, #wb_ButtonRegistrarGroupAcademic .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-state-hover, #wb_ButtonRegistrarGroupAcademic .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-state-active, #wb_ButtonRegistrarGroupAcademic .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-button .ui-icon
+{
+   background-image: url(images/groups-ButtonRegistrarGroupAcademic-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-button:hover .ui-icon
+{
+   background-image: url(images/groups-ButtonRegistrarGroupAcademic-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-button:active .ui-icon
+{
+   background-image: url(images/groups-ButtonRegistrarGroupAcademic-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarGroupAcademic .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineGroupAcademic5
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   z-index: 26;
+}
+#LineGroupAcademic2
+{
+   display: block;
+   width: 100%;
+   z-index: 7;
+}
+#LineSeparatorGroupAcademic
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#LineGroupAcademic3
+{
+   display: block;
+   width: 100%;
+   z-index: 9;
+}
+#ComboboxTeacherGroupAcademic
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 8;
+}
+#ComboboxSubjectGroupAcademic
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 6;
+}
+#LineGroupAcademic5
+{
+   display: block;
+   width: 100%;
+   z-index: 11;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 10;
+}
+#TableGruposAcademic
+{
+   display: table;
+   width: 100%;
+   height: 151px;
+   z-index: 1;
+}
+#ButtonRegistrarGroupAcademic
+{
+   width: 100%;
+   height: 100%;
+}
+#LineSeparatorGroupAcademic2
+{
+   display: block;
+   width: 100%;
+   z-index: 5;
+}
+#EditboxCodigoGrupoAcademic
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 4;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGruposAcademic
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGruposAcademic .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGHrupos
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGHrupos
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGHrupos
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGHrupos .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionGrupoAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionGrupoAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#LineSeparatorGroupAcademic
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextEditGrupo
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextEditGrupo
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoGrupoAcademic
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSubjectGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxTeacherGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGruposAcademic
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGruposAcademic .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGHrupos
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGHrupos
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGHrupos
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGHrupos .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionGrupoAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionGrupoAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorGroupAcademic
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextEditGrupo
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextEditGrupo
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoGrupoAcademic
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSubjectGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxTeacherGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGruposAcademic
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGruposAcademic .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGHrupos
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGHrupos
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGHrupos
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGHrupos .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionGrupoAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionGrupoAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorGroupAcademic
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextEditGrupo
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextEditGrupo
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoGrupoAcademic
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSubjectGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxTeacherGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGruposAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGruposAcademic
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridGruposAcademic .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridGruposAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGHrupos
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGHrupos
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGHrupos
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContentGHrupos .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContentGHrupos > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextGestionGrupoAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionGrupoAcademic
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableGruposAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorGroupAcademic
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextEditGrupo
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextEditGrupo
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#EditboxCodigoGrupoAcademic
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxSubjectGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#ComboboxTeacherGroupAcademic
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineGroupAcademic3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarGroupAcademic
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineGroupAcademic5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}

@@ -1,5 +1,9 @@
 class MonitoringsController < ApplicationController
 	layout 'students'
+	def initialize
+		super
+		@mensajes = Array.new
+	end
 	def index
 		redirect_to ver_student_monitoring_path(current_student)
 	end

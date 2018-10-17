@@ -9,9 +9,12 @@
                             <strong><%= "No se pudo asignar el estudiante a la materia. Razon:"%></strong><br>
                         <%end%>
                         <% if mensaje != nil %>
+
                             <%mensaje.each do |m|%>
                                 *<%= m%><br>
                             <%end%> 
+                        <%else%>
+                            <%puts 'mensaje es nulo'%>
                         <%end%> 
                     </span>
                 </div>

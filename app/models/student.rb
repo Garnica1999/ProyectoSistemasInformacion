@@ -9,6 +9,7 @@ class Student < ApplicationRecord
 
 	#RELACION MUCHOS A MUCHOS
 	has_and_belongs_to_many :semesters
+	has_and_belongs_to_many :groups
 
 	@@PAGO_MONITOR_PREGRADO = 500000.0
 	@@PAGO_MONITOR_POSTGRADO = 750000.0
@@ -99,10 +100,6 @@ class Student < ApplicationRecord
 		end
 	end
 
-	def self.crearContrato(id_student, cod_materia)
-
-	end
-
 	def self.opciones_programa
 		arr = Array.new
 		#schools = School.all.pluck(:id, :nombre)
@@ -131,5 +128,28 @@ class Student < ApplicationRecord
 		id_program = Student.find(id_student).programa
 		program = Program.find(id_program)
 		return program.nombre
+	end
+
+	def self.obtenerNombre(id_student)
+		student = Student.find(id_student)
+		return student.nombres + " " + student.apellidos
+	end
+
+	def self.obtenerSemestreId(id_student)
+		student = Student.find(id_student)
+		return student.semesters.ids
+	end
+
+	def self.convertirIDSemestreASemestre(ids_semesters)
+		semestres = Array.new 
+		ids_semesters.each do |s|
+			semester = Semester.find(s)
+			semestres << semester.semestre
+		end
+		return semestres
+	end
+
+	def self.esMonitor(id_student)
+		return Student.find(id_student).subjects.count > 0
 	end
 end

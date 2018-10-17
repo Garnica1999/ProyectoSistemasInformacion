@@ -1,62 +1,66 @@
-<div id="wb_LayoutGridEstud">
-  <div id="LayoutGridEstud">
-    <div class="row">
-      <div class="col-1">
-        <hr id="Line1NewEst">
-        <div id="wb_LayoutGridFormEstud">
-          <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
-            <%= devise_error_messages! %>
+<% if teacher_signed_in? %>
+  <% if current_teacher.especialidad == "Administrador" %>
+    <div id="wb_LayoutGridEstud">
+      <div id="LayoutGridEstud">
+        <div class="row">
+          <div class="col-1">
+            <hr id="Line1NewEst">
+            <div id="wb_LayoutGridFormEstud">
+              <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+                <%= devise_error_messages! %>
 
-            <div id="wb_TextTituloRegEst">
-            <span style="color:#000000;font-family:'Segoe UI';font-size:32px;"><strong>Registrar un Estudiante</strong></span>
-            </div>
-              <hr id="Line5NewEst">
-              <div id="wb_IconFont1">
-              <div id="IconFont1"><i class="material-icons">&#xe7fe;</i></div>
-            </div>
-            <%= f.text_field :codigo, placeholder: "Codigo", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
-            <hr id="Line2NewEst">
-            <%= f.text_field :documento, placeholder: "Documento", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
-            <hr id="Line2NewEst">
-            <%= f.text_field :nombres, placeholder: "Nombres", class: "EditBox", value: "", type: "text", id: "EditboxNombreRegEst"%>
-            <hr id="Line3NewEst">
-            <%= f.text_field :apellidos, placeholder: "Apellidos", class: "EditBox", value: "", type: "text", id: "EditboxApellidosRegEst"%>
-            <hr id="Line4NewEst">
-            <%= f.label :LabelTipoRegEst, "Tipo: ", id: "LabelTipoRegEst"%>
-            <hr id="Line1">
+                <div id="wb_TextTituloRegEst">
+                <span style="color:#000000;font-family:'Segoe UI';font-size:32px;"><strong>Registrar un Estudiante</strong></span>
+                </div>
+                  <hr id="Line5NewEst">
+                  <div id="wb_IconFont1">
+                  <div id="IconFont1"><i class="material-icons">&#xe7fe;</i></div>
+                </div>
+                <%= f.text_field :codigo, placeholder: "Codigo", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
+                <hr id="Line2NewEst">
+                <%= f.text_field :documento, placeholder: "Documento", class: "EditBox", value: "", type: "number", id: "EditboxDocumentoRegEst"%>
+                <hr id="Line2NewEst">
+                <%= f.text_field :nombres, placeholder: "Nombres", class: "EditBox", value: "", type: "text", id: "EditboxNombreRegEst"%>
+                <hr id="Line3NewEst">
+                <%= f.text_field :apellidos, placeholder: "Apellidos", class: "EditBox", value: "", type: "text", id: "EditboxApellidosRegEst"%>
+                <hr id="Line4NewEst">
+                <%= f.label :LabelTipoRegEst, "Tipo: ", id: "LabelTipoRegEst"%>
+                <hr id="Line1">
 
-            <%= f.text_field :es_egresado, placeholder: "Tipo (0 para Estudiante, 1 para egresado)", class: "EditBox", value: "", type: "number", id: "EditboxApellidosRegEst"%>
+                <%= f.text_field :es_egresado, placeholder: "Tipo (0 para Estudiante, 1 para egresado)", class: "EditBox", value: "", type: "number", id: "EditboxApellidosRegEst"%>
 
-            <hr id="Line5NewEst">
+                <hr id="Line5NewEst">
 
-            <%= f.select :programa, Student.opciones_programa,{ prompt: "Seleccione el programa"}, id: "ComboboxPrograma" %>
+                <%= f.select :programa, Student.opciones_programa,{ prompt: "Seleccione el programa"}, id: "ComboboxPrograma" %>
 
-            <hr id="Line9NewEst">
+                <hr id="Line9NewEst">
 
-            <%= f.text_field :email, placeholder: "E-mail", class: "EditBox", value: "", type: "text", id: "EditboxApellidosRegEst"%>
+                <%= f.text_field :email, placeholder: "E-mail", class: "EditBox", value: "", type: "text", id: "EditboxApellidosRegEst"%>
 
-            <hr id="Line8NewEst">
-            <%= f.password_field :password , class: "EditBox", value: "", spellcheck: "false", placeholder: "Contraseña", id: "EditboxClaveRegEst"%>
-            <hr id="Line10NewEst">
-            <%= f.password_field :password_confirmation , class: "EditBox", value: "", spellcheck: "false", placeholder: "Confirmar Contraseña", id: "EditboxConfClaveRegEst"%>
-            <hr id="Line6NewEst">
-            <%= f.submit "Registrar", id: "ButtonRegistrarEstRegEst", class: "boton"%> 
-            <hr id="Line6NewEst">
-            <%= @student.errors.full_messages.each do |message| %>
-              <div id="wb_TextErrorRegEst">
-                <span style="color:#FF0000;font-family:'Segoe UI';font-size:13px;">
-                  * <%= message %>
-                </span>
+                <hr id="Line8NewEst">
+                <%= f.password_field :password , class: "EditBox", value: "", spellcheck: "false", placeholder: "Contraseña", id: "EditboxClaveRegEst"%>
+                <hr id="Line10NewEst">
+                <%= f.password_field :password_confirmation , class: "EditBox", value: "", spellcheck: "false", placeholder: "Confirmar Contraseña", id: "EditboxConfClaveRegEst"%>
+                <hr id="Line6NewEst">
+                <%= f.submit "Registrar", id: "ButtonRegistrarEstRegEst", class: "boton"%> 
+                <hr id="Line6NewEst">
+                <%= @student.errors.full_messages.each do |message| %>
+                  <div id="wb_TextErrorRegEst">
+                    <span style="color:#FF0000;font-family:'Segoe UI';font-size:13px;">
+                      * <%= message %>
+                    </span>
+                  </div>
+                                
+                                
+                 <% end %>  
+                <hr id="Line6NewEst">            
+                <% end %>
               </div>
-                            
-                            
-             <% end %>  
-            <hr id="Line6NewEst">            
-            <% end %>
-          </div>
+            </div>
         </div>
+      </div>
     </div>
-  </div>
-</div>
 
-<%= render "devise/shared/links" %>
+    <%= render "devise/shared/links" %>
+  <% end %>
+<% end %>

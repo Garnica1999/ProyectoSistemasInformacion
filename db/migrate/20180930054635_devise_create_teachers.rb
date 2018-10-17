@@ -4,7 +4,7 @@ class DeviseCreateTeachers < ActiveRecord::Migration[5.1]
   def change
     create_table :teachers do |t|
       ## Database authenticatable
-      t.integer :documento, null: false
+      t.integer :codigo, null: false
       t.string :nombres, null: false
       t.string :apellidos, null:false
       t.string :especialidad, null:false
@@ -42,7 +42,7 @@ class DeviseCreateTeachers < ActiveRecord::Migration[5.1]
 
     add_index :teachers, :email,                unique: true
     add_index :teachers, :reset_password_token, unique: true
-    add_index :teachers, :documento, unique: true
+    add_index :teachers, :codigo, unique: true
     # add_index :teachers, :confirmation_token,   unique: true
     # add_index :teachers, :unlock_token,         unique: true
   end

@@ -1,0 +1,1141 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#ShapePanel1Reg
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel1Reg_text
+{
+   position: absolute;
+   left: 3px;
+   top: 86px;
+   width: 241px;
+   height: 120px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridHeaderRegistro
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridHeaderRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridHeaderRegistro:before,
+#LayoutGridHeaderRegistro:after,
+#LayoutGridHeaderRegistro .row:before,
+#LayoutGridHeaderRegistro .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridHeaderRegistro:after,
+#LayoutGridHeaderRegistro .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGridPanelReg_
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridPanelReg_
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridPanelReg_ .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   float: left;
+}
+#LayoutGridPanelReg_ > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGridPanelReg_ > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 50%;
+   text-align: center;
+}
+#LayoutGridPanelReg_:before,
+#LayoutGridPanelReg_:after,
+#LayoutGridPanelReg_ .row:before,
+#LayoutGridPanelReg_ .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridPanelReg_:after,
+#LayoutGridPanelReg_ .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#ShapePanel2Reg
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel2Reg_text
+{
+   position: absolute;
+   left: 3px;
+   top: 66px;
+   width: 241px;
+   height: 140px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#LineSepRegistroAcad
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 42px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridFooterRegistro
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridFooterRegistro
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridFooterRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridFooterRegistro:before,
+#LayoutGridFooterRegistro:after,
+#LayoutGridFooterRegistro .row:before,
+#LayoutGridFooterRegistro .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridFooterRegistro:after,
+#LayoutGridFooterRegistro .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#LineSepRegistroAcad2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 42px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   z-index: 6;
+}
+#wb_ShapePanel2Reg
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 2;
+   position: relative;
+}
+#wb_ShapePanel1Reg
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 1;
+   position: relative;
+}
+#LineSepRegistroAcad
+{
+   display: block;
+   width: 100%;
+   z-index: 0;
+}
+#LineSepRegistroAcad2
+{
+   display: block;
+   width: 100%;
+   z-index: 3;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1Reg_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridHeaderRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridHeaderRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGridPanelReg_
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridPanelReg_
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridPanelReg_
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridPanelReg_ .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGridPanelReg_ > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2Reg_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#LineSepRegistroAcad
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridFooterRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFooterRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooterRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridFooterRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepRegistroAcad2
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1Reg_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridHeaderRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridHeaderRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGridPanelReg_
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridPanelReg_
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridPanelReg_
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridPanelReg_ .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGridPanelReg_ > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2Reg_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#LineSepRegistroAcad
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridFooterRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFooterRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooterRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridFooterRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepRegistroAcad2
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1Reg_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridHeaderRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridHeaderRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGridPanelReg_
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridPanelReg_
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridPanelReg_
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridPanelReg_ .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGridPanelReg_ > .row > .col-2
+{
+   display: block;
+   width: 50%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2Reg_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#LineSepRegistroAcad
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridFooterRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFooterRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooterRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridFooterRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepRegistroAcad2
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1Reg_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridHeaderRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridHeaderRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridHeaderRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridHeaderRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGridPanelReg_
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridPanelReg_
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridPanelReg_
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridPanelReg_ .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1, #LayoutGridPanelReg_ > .row > .col-2
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridPanelReg_ > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGridPanelReg_ > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2Reg
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2Reg
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2Reg_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#LineSepRegistroAcad
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridFooterRegistro
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridFooterRegistro
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridFooterRegistro
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridFooterRegistro .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridFooterRegistro > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LineSepRegistroAcad2
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSepRegistroAcad2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+}

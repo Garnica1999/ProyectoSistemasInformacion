@@ -1,0 +1,1530 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContenidoDoc
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContenidoDoc
+{
+   box-sizing: border-box;
+   padding: 0px 5px 0px 5px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContenidoDoc .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 5px;
+   padding-left: 5px;
+   position: relative;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   float: left;
+}
+#LayoutContenidoDoc > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 66.66666667%;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutContenidoDoc > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 16.66666667%;
+   text-align: center;
+}
+#LayoutContenidoDoc:before,
+#LayoutContenidoDoc:after,
+#LayoutContenidoDoc .row:before,
+#LayoutContenidoDoc .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContenidoDoc:after,
+#LayoutContenidoDoc .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#separador1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 53px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextTituloLoginDocente div
+{
+   text-align: center;
+}
+#separador2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 51px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_iconLogin
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+   text-align: center;
+   margin: 0;
+   padding: 0;
+   line-height: 158px;
+   vertical-align: top;
+   display:inline-block;
+   position:relative;
+}
+#wb_iconLogin:hover
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #245580;
+}
+#iconLogin
+{
+   vertical-align: middle;
+}
+#iconLogin g
+{
+   fill: #0076C0;
+   display: inline-block;
+   font-size: 158px;
+   vertical-align: middle;
+   width: 157px;
+}
+#wb_iconLogin:hover g
+{
+   fill: #337AB7;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxDocumento:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxDocumento::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxDocumento::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxPassword:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxPassword::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxPassword::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 21px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#Line3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 10px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridLoginDpc
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridLoginDpc
+{
+   box-sizing: border-box;
+   padding: 0;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridLoginDpc .row
+{
+   margin-right: 0;
+   margin-left: 0;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 0px;
+   padding-left: 0px;
+   position: relative;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridLoginDpc:before,
+#LayoutGridLoginDpc:after,
+#LayoutGridLoginDpc .row:before,
+#LayoutGridLoginDpc .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridLoginDpc:after,
+#LayoutGridLoginDpc .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridLoginDpc > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 15px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonEntrarDocente
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonEntrarDocente
+{
+   margin: 0;
+}
+#wb_ButtonEntrarDocente .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonEntrarDocente
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonEntrarDocente :hover
+{
+   color: #2B2B2B;
+}
+#ButtonEntrarDocente :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonEntrarDocente .ui-corner-all, #wb_ButtonEntrarDocente .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonEntrarDocente .ui-corner-all, #wb_ButtonEntrarDocente .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonEntrarDocente .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonEntrarDocente .ui-state-hover, #wb_ButtonEntrarDocente .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonEntrarDocente .ui-state-active, #wb_ButtonEntrarDocente .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonEntrarDocente .ui-button .ui-icon
+{
+   background-image: url(images/login-ButtonEntrarDocente-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonEntrarDocente .ui-button:hover .ui-icon
+{
+   background-image: url(images/login-ButtonEntrarDocente-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonEntrarDocente .ui-button:active .ui-icon
+{
+   background-image: url(images/login-ButtonEntrarDocente-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonEntrarDocente .ui-visual-focus
+{
+   box-shadow: none;
+}
+#Line6
+{
+   display: block;
+   width: 100%;
+   z-index: 12;
+}
+#EditboxPassword
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 7;
+}
+#separador1
+{
+   display: block;
+   width: 100%;
+   z-index: 0;
+}
+#separador2
+{
+   display: block;
+   width: 100%;
+   z-index: 2;
+}
+#wb_iconLogin
+{
+   display: inline-block;
+   width: 190px;
+   height: 158px;
+   text-align: center;
+   z-index: 3;
+}
+#wb_ButtonEntrarDocente
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 11;
+}
+#EditboxDocumento
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 5;
+}
+#Html2
+{
+   display: inline-block;
+   width: 301px;
+   height: 74px;
+   z-index: 9;
+}
+#iconLogin
+{
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   left: 0;
+   top: 0;
+}
+#ButtonEntrarDocente
+{
+   width: 100%;
+   height: 100%;
+}
+#Line1
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#Line2
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#Line3
+{
+   display: block;
+   width: 100%;
+   z-index: 10;
+}
+#Line4
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoDoc
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutContenidoDoc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoDoc
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoDoc .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoDoc > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutContenidoDoc > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginDocente
+{
+   visibility: visible;
+   display: block;
+}
+#separador2
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLogin
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLogin
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLogin g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxDocumento
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Line3
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridLoginDpc
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridLoginDpc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridLoginDpc
+{
+   padding: 0;
+}
+#LayoutGridLoginDpc .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html2
+{
+   width: 301px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line6
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+#wb_ButtonEntrarDocente
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoDoc
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutContenidoDoc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoDoc
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoDoc .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoDoc > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutContenidoDoc > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginDocente
+{
+   visibility: visible;
+   display: block;
+}
+#separador2
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLogin
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLogin
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLogin g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxDocumento
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Line3
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridLoginDpc
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridLoginDpc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridLoginDpc
+{
+   padding: 0;
+}
+#LayoutGridLoginDpc .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html2
+{
+   width: 301px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line6
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+#wb_ButtonEntrarDocente
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoDoc
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutContenidoDoc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoDoc
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoDoc .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoDoc > .row > .col-1
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2
+{
+   display: block;
+   width: 66.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutContenidoDoc > .row > .col-3
+{
+   display: block;
+   width: 16.66666667%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginDocente
+{
+   visibility: visible;
+   display: block;
+}
+#separador2
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLogin
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLogin
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLogin g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxDocumento
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Line3
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridLoginDpc
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridLoginDpc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridLoginDpc
+{
+   padding: 0;
+}
+#LayoutGridLoginDpc .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html2
+{
+   width: 301px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line6
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+#wb_ButtonEntrarDocente
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutContenidoDoc
+{
+   visibility: visible;
+   display: table;
+}
+#wb_LayoutContenidoDoc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContenidoDoc
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContenidoDoc .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContenidoDoc > .row > .col-1, #LayoutContenidoDoc > .row > .col-2, #LayoutContenidoDoc > .row > .col-3
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContenidoDoc > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#LayoutContenidoDoc > .row > .col-2 > .col-2-padding
+{
+   padding: 0px 5px 0px 0px;
+}
+#LayoutContenidoDoc > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#separador1
+{
+   width: calc(100% - 0px);
+   height: 53px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 53px;
+}
+#wb_TextTituloLoginDocente
+{
+   visibility: visible;
+   display: block;
+}
+#separador2
+{
+   width: calc(100% - 0px);
+   height: 51px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#separador2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 51px;
+}
+#wb_iconLogin
+{
+   width: 190px;
+   height: 158px;
+   visibility: visible;
+   display: inline-block;
+   color: #0076C0;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   margin: 0;
+   padding: 0;
+}
+#iconLogin
+{
+   width: 190px;
+   height: 158px;
+}
+#iconLogin g
+{
+   line-height: 158px;
+   font-size: 158px;
+   width: 157px;
+}
+#Line4
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxDocumento
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line1
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#EditboxPassword
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#Line2
+{
+   width: calc(100% - 0px);
+   height: 21px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 21px;
+}
+#Line3
+{
+   width: calc(100% - 0px);
+   height: 42px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 42px;
+}
+#wb_LayoutGridLoginDpc
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridLoginDpc
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridLoginDpc
+{
+   padding: 0;
+}
+#LayoutGridLoginDpc .row
+{
+   margin-right: -0px;
+   margin-left: -0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   padding-right: 0px;
+   padding-left: 0px;
+}
+#LayoutGridLoginDpc > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#Html2
+{
+   width: 301px;
+   height: 74px;
+   visibility: visible;
+   display: inline-block;
+}
+#Line6
+{
+   width: calc(100% - 0px);
+   height: 15px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#Line6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 15px;
+}
+#wb_ButtonEntrarDocente
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
