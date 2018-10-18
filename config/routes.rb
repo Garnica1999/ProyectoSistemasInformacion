@@ -22,14 +22,17 @@ Rails.application.routes.draw do
   post 'academics/groups/new', to: 'academics/groups#create'
 
   post 'academics/subjects/new', to: 'academics/subjects#create'
-  get 'registers/students/ver'
   get 'teachers/index'
-  get 'registers/schedules/index'
-  get 'registers/schedules/ver'
+
 
   get 'registers/', to: 'registers#index'
-
-
+  get 'registers/students/:student_id/notes', to: 'registers/students/notes#index'
+  get 'registers/students/:student_id/notes/:note_id/edit', to: 'registers/students/notes#edit'
+  get 'registers/students/:student_id/notes/new', to: 'registers/students/notes#new'
+  #get 'registers/students/:student_id', to: 'registers/students#show'
+  delete 'registers/students/:student_id/notes/:note_id', to: 'registers/students/notes#destroy', as: :destroy_note_student_registers
+  post 'registers/students/:student_id/notes/new', to: 'registers/students/notes#create', as: :new_registers_student_note
+  post 'registers/students/:student_id/notes/:note_id/edit', to: 'registers/students/notes#update', as: :update_registers_student_note
   devise_for :students, controllers: {
     registrations: 'students/registrations',
     sessions: 'students/sessions'}
@@ -83,13 +86,16 @@ Rails.application.routes.draw do
     end
     resources :groups
   end
-
-  namespace :registers do
-    resources :notes
-    resources :students
-  end
-  
   resources :academics
+  
+  namespace :registers do
+    resources :students do
+      scope module: :students do
+        resources :notes
+      end
+    end
+  end
+  resources :registers
 
   #deinifion de la ruta de arranque del servidor web
   root 'inicio#index'

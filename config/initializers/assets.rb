@@ -40,4 +40,7 @@ Rails.application.config.assets.precompile += %w( index.css
 	academics/students/historial.css
 	academics/subjects/new.css
 	registers.css
+	registers/notes.css
+	registers/edit-notes.css
+	academics.css
 )

@@ -1,0 +1,46 @@
+<% if teacher_signed_in? %>
+    <% if current_teacher.especialidad == "Administrador" %>
+        <div id="wb_LayoutGridGestionNotas">
+            <div id="LayoutGridGestionNotas">
+                <div class="row">
+                    <div class="col-1">
+                        <div id="wb_LayoutContentGestionNotas">
+                            <div id="LayoutContentGestionNotas">
+                                <div class="row">
+                                    <div class="col-1">
+                                        <div id="wb_TextGestionNotas">
+                                            <span style="color:#808080;"><strong>Gestion de Notas</strong></span>
+                                        </div>
+                                        <hr id="LineSeparatorNotasGestion">
+                                        <table id="TableNotasGestionNotas">
+                                            <tr>
+                                                <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Codigo de la materia</strong></span></td>
+                                                <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Nombre de la materia</strong></span></td>
+                                                <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Nota</strong></span></td>
+                                                <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Editar</strong></span></td>
+                                            </tr>
+                                            <% @notes.each do |note| %>
+                                                <% subjects = Subject.obtenerInfoMateria(note.subject_id) %>
+                                                <tr>
+                                                    <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subjects.at(0).to_s %></span></td>
+                                                    <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= subjects.at(1) %></span></td>
+                                                    <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><%= note.nota.to_s %></span></td>
+                                                    <td class="cell0"><span style="color:#333333;font-family:'Segoe UI';font-size:18px;line-height:32px;"><a href=<%= "/registers/students/" + @id_student.to_s + "/notes/" + note.id.to_s + "/edit"%>>Editar</a></span></td>
+                                                </tr>
+                                            <%end%>
+                                        </table>
+                                        <div id="wb_ButtonRegistrarGroupAcademic" style= "padding-top: 15px; padding-bottom: 15px;">
+                                            <a class="ui-button ui-widget ui-corner-all" id="ButtonRegistrarGroupAcademic" href=<%= "/registers/students/" + @id_student + "/notes/new" %> target="_self" title="Agregar Estudiante" id="ButtonRegistrarGroupAcademic" class="boton">Añadir Nota</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <% end %>
+<% else %>
+    <h1>El sitio web no ha podido ser encontrado</h1>
+<% end %>

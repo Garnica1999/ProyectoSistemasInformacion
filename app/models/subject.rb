@@ -27,4 +27,13 @@ class Subject < ApplicationRecord
     subjects.push(subject.creditos.to_s)
     return subjects
   end
+
+  def self.obtenerMaterias
+    arr = Array.new
+    subjects = Subject.all
+    subjects.each do |subject|
+      arr.push(subject.id.to_s + "-" + subject.nombre)
+    end
+    arr
+  end
 end

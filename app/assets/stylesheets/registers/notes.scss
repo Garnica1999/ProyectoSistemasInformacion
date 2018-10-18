@@ -1,3 +1,886 @@
-// Place all the styles related to the registers/notes controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridGestionNotas
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridGestionNotas
+{
+   box-sizing: border-box;
+   padding: 0px 170px 0px 170px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridGestionNotas .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 170px;
+   padding-left: 170px;
+   position: relative;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridGestionNotas:before,
+#LayoutGridGestionNotas:after,
+#LayoutGridGestionNotas .row:before,
+#LayoutGridGestionNotas .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridGestionNotas:after,
+#LayoutGridGestionNotas .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridGestionNotas > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_LayoutContentGestionNotas
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContentGestionNotas
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContentGestionNotas .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   float: left;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContentGestionNotas:before,
+#LayoutContentGestionNotas:after,
+#LayoutContentGestionNotas .row:before,
+#LayoutContentGestionNotas .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContentGestionNotas:after,
+#LayoutContentGestionNotas .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContentGestionNotas > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextGestionNotas 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 0px 30px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextGestionNotas
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextGestionNotas div
+{
+   text-align: center;
+}
+#TableNotasGestionNotas
+{
+   border: 0px solid #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableNotasGestionNotas td
+{
+   padding: 8px 8px 8px 8px;
+}
+#TableNotasGestionNotas td div
+{
+   white-space: nowrap;
+}
+#TableNotasGestionNotas .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 2px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+}
+#TableNotasGestionNotas .cell1
+{
+   background-color: transparent;
+   background-image: none;
+   border-top-width: 0px;
+   border-right-width: 0px;
+   border-bottom-width: 1px;
+   border-left-width: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-top-color: #DDDDDD;
+   border-right-color: #DDDDDD;
+   border-bottom-color: #DDDDDD;
+   border-left-color: #DDDDDD;
+   text-align: center;
+   vertical-align: top;
+}
+#TableNotasGestionNotas tr:nth-child(odd)
+{
+   background-color: #F9F9F9;
+}
+#LineSeparatorNotasGestion
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   z-index: 8;
+}
+#TableNotasGestionNotas
+{
+   display: table;
+   width: 100%;
+   height: 87px;
+   z-index: 2;
+}
+#LineSeparatorNotasGestion
+{
+   display: block;
+   width: 100%;
+   z-index: 1;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGestionNotas
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGestionNotas .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGestionNotas
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGestionNotas .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionNotas
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableNotasGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#LineSeparatorNotasGestion
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasGestion
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGestionNotas
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGestionNotas .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGestionNotas
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGestionNotas .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionNotas
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableNotasGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorNotasGestion
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasGestion
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGestionNotas
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridGestionNotas .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGestionNotas
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentGestionNotas .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextGestionNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionNotas
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableNotasGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorNotasGestion
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasGestion
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridGestionNotas
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridGestionNotas .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_Text1
+{
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   visibility: visible;
+   display: inline;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_Text1
+{
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutContentGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentGestionNotas
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentGestionNotas
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContentGestionNotas .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContentGestionNotas > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextGestionNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextGestionNotas
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#TableNotasGestionNotas
+{
+   visibility: visible;
+   display: table;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#LineSeparatorNotasGestion
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasGestion
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+}

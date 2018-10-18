@@ -9,4 +9,14 @@ class Group < ApplicationRecord
 	has_and_belongs_to_many :schedules
 	has_and_belongs_to_many :students
 	has_many :notes
+
+	def self.toArray
+		arr = Array.new
+		groups = Group.all
+		groups.each do |group|
+			subject = group.subject.nombre
+			arr.push(group.id.to_s + "-" + group.codigo.to_s + "-" + subject)
+		end
+		return arr
+	end
 end

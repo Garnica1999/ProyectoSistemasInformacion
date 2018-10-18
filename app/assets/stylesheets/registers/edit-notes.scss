@@ -1,0 +1,1696 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridNotaAddContainer
+{
+   box-sizing: border-box;
+   padding: 0px 170px 0px 170px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridNotaAddContainer .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 170px;
+   padding-left: 170px;
+   position: relative;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridNotaAddContainer:before,
+#LayoutGridNotaAddContainer:after,
+#LayoutGridNotaAddContainer .row:before,
+#LayoutGridNotaAddContainer .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridNotaAddContainer:after,
+#LayoutGridNotaAddContainer .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutContentNotaAdd
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutContentNotaAdd
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutContentNotaAdd .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   float: left;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutContentNotaAdd:before,
+#LayoutContentNotaAdd:after,
+#LayoutContentNotaAdd .row:before,
+#LayoutContentNotaAdd .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutContentNotaAdd:after,
+#LayoutContentNotaAdd .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutContentNotaAdd > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextAddNotasTitle 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 30px 0px 30px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextAddNotasTitle
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+}
+#wb_TextAddNotasTitle div
+{
+   text-align: center;
+}
+#LineSeparatorNotasAdd1
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#wb_TextInfoNotas 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0px 0px 30px 0px;
+   margin: 0;
+   text-align: left;
+}
+#wb_TextInfoNotas div
+{
+   text-align: left;
+}
+#ComboboxEstudianteNota
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxEstudianteNota:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#ComboboxGrupoNota
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxGrupoNota:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#ComboboxMateriaNota
+{
+   border: 1px solid #A9A9A9;
+   border-radius: 5px;
+   background-color: #FFFFFF;
+   background-image: none;
+   color: #C5C5C5;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 13px;
+   padding: 4px 4px 4px 4px;
+   margin: 0;
+   box-sizing: border-box;
+}
+#ComboboxMateriaNota:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#LineSeparatorNotasAdd2
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSeparatorNotasAdd3
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#LineSeparatorNotasAdd4
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#EditboxNotaNumNota:focus
+{
+   border-color: #66AFE9;
+   box-shadow: inset 0px 1px 1px rgba(0,0,0,0.075), 0px 0px 8px rgba(102,175,233,0.60);
+   outline: 0;
+}
+#EditboxNotaNumNota::placeholder
+{
+   color: #C1C1C1;
+   opacity: 1;
+}
+#EditboxNotaNumNota::-ms-input-placeholder
+{
+   color: #C1C1C1;
+}
+#LineSeparatorNotasAdd5
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonRegistrarNota
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonRegistrarNota
+{
+   margin: 0;
+}
+#wb_ButtonRegistrarNota .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonRegistrarNota
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonRegistrarNota :hover
+{
+   color: #2B2B2B;
+}
+#ButtonRegistrarNota :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarNota .ui-corner-all, #wb_ButtonRegistrarNota .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonRegistrarNota .ui-corner-all, #wb_ButtonRegistrarNota .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonRegistrarNota .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarNota .ui-state-hover, #wb_ButtonRegistrarNota .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonRegistrarNota .ui-state-active, #wb_ButtonRegistrarNota .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonRegistrarNota .ui-button .ui-icon
+{
+   background-image: url(images/edit-ButtonRegistrarNota-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarNota .ui-button:hover .ui-icon
+{
+   background-image: url(images/edit-ButtonRegistrarNota-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarNota .ui-button:active .ui-icon
+{
+   background-image: url(images/edit-ButtonRegistrarNota-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonRegistrarNota .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineSeparatorNotasAdd6
+{
+   border-color: #FFFFFF;
+   border-style: solid;
+   border-bottom-width: 24px;
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 0px;
+   height: 0 !important;
+   line-height: 0px !important;
+   margin: 0;
+   padding: 0;
+}
+#ButtonEliminarNota
+{
+   font-family: "Segoe UI";
+   font-weight: bold;
+   font-size: 17px;
+   font-style: normal;
+}
+#wb_ButtonEliminarNota
+{
+   margin: 0;
+}
+#wb_ButtonEliminarNota .ui-button
+{
+   margin: 0;
+   padding: 0;
+   line-height: 58px;
+}
+#ButtonEliminarNota
+{
+   color: #454545;
+   text-decoration: none;
+}
+#ButtonEliminarNota :hover
+{
+   color: #2B2B2B;
+}
+#ButtonEliminarNota :active
+{
+   color: #FFFFFF;
+}
+#wb_ButtonEliminarNota .ui-corner-all, #wb_ButtonEliminarNota .ui-corner-left
+{
+   border-bottom-left-radius: 4px;
+   border-top-left-radius: 4px;
+}
+#wb_ButtonEliminarNota .ui-corner-all, #wb_ButtonEliminarNota .ui-corner-right
+{
+   border-bottom-right-radius: 4px;
+   border-top-right-radius: 4px;
+}
+#wb_ButtonEliminarNota .ui-button
+{
+   background-color: #0076C0;
+   background-image: none;
+   border: 1px solid #C5C5C5;
+   color: #FFFFFF;
+}
+#wb_ButtonEliminarNota .ui-state-hover, #wb_ButtonEliminarNota .ui-button:hover
+{
+   border-color: #CCCCCC;
+   background-color: #EDEDED;
+   background-image: none;
+   color: #2B2B2B;
+}
+#wb_ButtonEliminarNota .ui-state-active, #wb_ButtonEliminarNota .ui-button:active
+{
+   border-color: #2E6DA4;
+   background-color: #3370B7;
+   background-image: none;
+   color: #FFFFFF;
+}
+#wb_ButtonEliminarNota .ui-button .ui-icon
+{
+   background-image: url(images/edit-ButtonEliminarNota-default.png);
+   background-position: 0 0;
+}
+#wb_ButtonEliminarNota .ui-button:hover .ui-icon
+{
+   background-image: url(images/edit-ButtonEliminarNota-hover.png);
+   background-position: 0 0;
+}
+#wb_ButtonEliminarNota .ui-button:active .ui-icon
+{
+   background-image: url(images/edit-ButtonEliminarNota-active.png);
+   background-position: 0 0;
+}
+#wb_ButtonEliminarNota .ui-visual-focus
+{
+   box-shadow: none;
+}
+#LineSeparatorNotasAdd1
+{
+   display: block;
+   width: 100%;
+   z-index: 1;
+}
+#LineSeparatorNotasAdd2
+{
+   display: block;
+   width: 100%;
+   z-index: 4;
+}
+#LineSeparatorNotasAdd3
+{
+   display: block;
+   width: 100%;
+   z-index: 6;
+}
+#LineSeparatorNotasAdd4
+{
+   display: block;
+   width: 100%;
+   z-index: 8;
+}
+#LineSeparatorNotasAdd5
+{
+   display: block;
+   width: 100%;
+   z-index: 10;
+}
+#LineSeparatorNotasAdd6
+{
+   display: block;
+   width: 100%;
+   z-index: 12;
+}
+#ButtonEliminarNota
+{
+   width: 100%;
+   height: 100%;
+}
+#wb_ButtonRegistrarNota
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 11;
+}
+#ComboboxMateriaNota
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 7;
+}
+#EditboxNotaNumNota
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 9;
+}
+#ComboboxEstudianteNota
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 3;
+}
+#ComboboxGrupoNota
+{
+   display: block;
+   width: 100%;
+   height: 50px;
+   z-index: 5;
+}
+#wb_ButtonEliminarNota
+{
+   display: inline-block;
+   width: 183px;
+   height: 60px;
+   z-index: 13;
+}
+#ButtonRegistrarNota
+{
+   width: 100%;
+   height: 100%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridNotaAddContainer
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridNotaAddContainer .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContentNotaAdd
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentNotaAdd
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentNotaAdd
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentNotaAdd .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextAddNotasTitle
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAddNotasTitle
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#LineSeparatorNotasAdd1
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextInfoNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextInfoNotas
+{
+   margin: 0;
+   padding: 0px 0px 30px 0px;
+}
+#ComboboxEstudianteNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxGrupoNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxMateriaNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSeparatorNotasAdd2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxNotaNumNota
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorNotasAdd5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonEliminarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridNotaAddContainer
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridNotaAddContainer .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContentNotaAdd
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentNotaAdd
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentNotaAdd
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentNotaAdd .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextAddNotasTitle
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAddNotasTitle
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#LineSeparatorNotasAdd1
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextInfoNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextInfoNotas
+{
+   margin: 0;
+   padding: 0px 0px 30px 0px;
+}
+#ComboboxEstudianteNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxGrupoNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxMateriaNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSeparatorNotasAdd2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxNotaNumNota
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorNotasAdd5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonEliminarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridNotaAddContainer
+{
+   padding: 0px 170px 0px 170px;
+}
+#LayoutGridNotaAddContainer .row
+{
+   margin-right: -170px;
+   margin-left: -170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   padding-right: 170px;
+   padding-left: 170px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutContentNotaAdd
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentNotaAdd
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentNotaAdd
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutContentNotaAdd .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextAddNotasTitle
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAddNotasTitle
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#LineSeparatorNotasAdd1
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextInfoNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextInfoNotas
+{
+   margin: 0;
+   padding: 0px 0px 30px 0px;
+}
+#ComboboxEstudianteNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxGrupoNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxMateriaNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSeparatorNotasAdd2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxNotaNumNota
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorNotasAdd5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonEliminarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridNotaAddContainer
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridNotaAddContainer
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutGridNotaAddContainer .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutGridNotaAddContainer > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_LayoutContentNotaAdd
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutContentNotaAdd
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutContentNotaAdd
+{
+   padding: 0px 5px 0px 5px;
+}
+#LayoutContentNotaAdd .row
+{
+   margin-right: -5px;
+   margin-left: -5px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   padding-right: 5px;
+   padding-left: 5px;
+}
+#LayoutContentNotaAdd > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: center;
+}
+#wb_TextAddNotasTitle
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextAddNotasTitle
+{
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-size: 32px;
+   margin: 0;
+   padding: 30px 0px 30px 0px;
+   text-align: center;
+}
+#LineSeparatorNotasAdd1
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd1
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_TextInfoNotas
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextInfoNotas
+{
+   margin: 0;
+   padding: 0px 0px 30px 0px;
+}
+#ComboboxEstudianteNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxGrupoNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#ComboboxMateriaNota
+{
+   width: calc(100% - 0px);
+   visibility: visible;
+   display: block;
+   color: #C5C5C5;
+   font-size: 13px;
+   font-family: "Segoe UI";
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: #FFFFFF;
+   background-image: none;
+   border-radius: 5px;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+}
+#LineSeparatorNotasAdd2
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd2
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd3
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd3
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#LineSeparatorNotasAdd4
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd4
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#EditboxNotaNumNota
+{
+   width: calc(100% - 0px);
+   height: 50px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+   padding: 4px 4px 4px 4px;
+   text-align: left;
+}
+#LineSeparatorNotasAdd5
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd5
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonRegistrarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   width: calc(100% - 0px);
+   height: 24px;
+   visibility: visible;
+   display: block;
+   margin: 0;
+}
+#LineSeparatorNotasAdd6
+{
+   border-color: #FFFFFF;
+   border-bottom-width: 24px;
+}
+#wb_ButtonEliminarNota
+{
+   width: 183px;
+   height: 60px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+}

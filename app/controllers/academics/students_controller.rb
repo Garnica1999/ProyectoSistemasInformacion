@@ -29,6 +29,7 @@ class Academics::StudentsController < ApplicationController
 		end
 		
 		if @student.save
+			StudentMailer.new_student(student).deliver_now
 			redirect_to @student
 		else
 			puts @student.errors.inspect

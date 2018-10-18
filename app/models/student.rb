@@ -6,6 +6,7 @@ class Student < ApplicationRecord
 	has_many :subjects
 	has_many :notes
 	has_many :logs
+	has_many :notifications
 
 	#RELACION MUCHOS A MUCHOS
 	has_and_belongs_to_many :semesters
@@ -151,5 +152,14 @@ class Student < ApplicationRecord
 
 	def self.esMonitor(id_student)
 		return Student.find(id_student).subjects.count > 0
+	end
+
+	def self.obtenerEstudiantes
+		arr = Array.new
+		students = Student.all
+		students.each do |student|
+			arr.push(student.id.to_s + "-" + student.nombres + " " + student.apellidos)
+		end
+		return arr
 	end
 end

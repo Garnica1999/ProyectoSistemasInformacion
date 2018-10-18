@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  tipo: MyString
+  accion: MyString
+  student: one
+  url: MyString
+  solucionado: 1
+
+two:
+  tipo: MyString
+  accion: MyString
+  student: two
+  url: MyString
+  solucionado: 1

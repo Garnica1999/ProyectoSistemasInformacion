@@ -1,3 +1,1548 @@
-// Place all the styles related to the academics controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#ShapePanel1
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel1_text
+{
+   position: absolute;
+   left: 3px;
+   top: 86px;
+   width: 241px;
+   height: 120px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_LayoutGridTituloAcademic
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridTituloAcademic
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridTituloAcademic .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: left;
+}
+#LayoutGridTituloAcademic:before,
+#LayoutGridTituloAcademic:after,
+#LayoutGridTituloAcademic .row:before,
+#LayoutGridTituloAcademic .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridTituloAcademic:after,
+#LayoutGridTituloAcademic .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_LayoutGrid1
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGrid1
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   float: left;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 25%;
+   text-align: center;
+}
+#LayoutGrid1:before,
+#LayoutGrid1:after,
+#LayoutGrid1 .row:before,
+#LayoutGrid1 .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGrid1:after,
+#LayoutGrid1 .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#ShapePanel2
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel2_text
+{
+   position: absolute;
+   left: 3px;
+   top: 86px;
+   width: 241px;
+   height: 120px;
+   overflow: hidden;
+   text-align: center;
+}
+#ShapePanel3
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel3_text
+{
+   position: absolute;
+   left: 3px;
+   top: 66px;
+   width: 241px;
+   height: 140px;
+   overflow: hidden;
+   text-align: center;
+}
+#ShapePanel4
+{
+   position: absolute;
+   left: 0px;
+   top: 0px;
+   width: 248px;
+   height: 210px;
+   background-color: #CA1414;
+   background-image: none;
+   border: 1px #D3D3D3 solid;
+   border-radius: 5px;
+   box-shadow: 3px 3px 0px #D3D3D3;
+}
+#ShapePanel4_text
+{
+   position: absolute;
+   left: 3px;
+   top: 66px;
+   width: 241px;
+   height: 140px;
+   overflow: hidden;
+   text-align: center;
+}
+#wb_Text1 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text1 div
+{
+   text-align: left;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   clear: both;
+   position: relative;
+   table-layout: fixed;
+   display: table;
+   text-align: center;
+   width: 100%;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #CCCCCC;
+   box-sizing: border-box;
+   margin: 0;
+}
+#LayoutGridContentNotificaciones
+{
+   box-sizing: border-box;
+   padding: 0px 15px 0px 15px;
+   margin-right: auto;
+   margin-left: auto;
+}
+#LayoutGridContentNotificaciones .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   box-sizing: border-box;
+   font-size: 0px;
+   min-height: 1px;
+   padding-right: 15px;
+   padding-left: 15px;
+   position: relative;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   float: left;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #FFFFFF;
+   width: 100%;
+   text-align: center;
+}
+#LayoutGridContentNotificaciones:before,
+#LayoutGridContentNotificaciones:after,
+#LayoutGridContentNotificaciones .row:before,
+#LayoutGridContentNotificaciones .row:after
+{
+   display: table;
+   content: " ";
+}
+#LayoutGridContentNotificaciones:after,
+#LayoutGridContentNotificaciones .row:after
+{
+   clear: both;
+}
+@media (max-width: 480px)
+{
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   float: none;
+   width: 100% !important;
+}
+}
+#wb_TextTituloAcademic 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 20px 0px 20px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextTituloAcademic div
+{
+   text-align: center;
+}
+#TableNotificaciones
+{
+   border: 0px solid #FFFFFF;
+   background-color: transparent;
+   background-image: none;
+   border-collapse: collapse;
+   border-spacing: 0px;
+   margin: 0;
+}
+#TableNotificaciones td
+{
+   padding: 0;
+}
+#TableNotificaciones td div
+{
+   white-space: nowrap;
+}
+#TableNotificaciones .cell0
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px #000000 solid;
+   text-align: left;
+   vertical-align: top;
+}
+#TableNotificaciones tr:nth-child(odd)
+{
+   background-color: #F2F2F2;
+}
+#wb_TextTituloNotificaciones 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 15px 0px 15px 0px;
+   margin: 0;
+   text-align: center;
+}
+#wb_TextTituloNotificaciones div
+{
+   text-align: center;
+}
+#wb_Text1
+{
+   position: absolute;
+   left: 1807px;
+   top: 192px;
+   width: 250px;
+   height: 16px;
+   z-index: 9;
+}
+#wb_ShapePanel1
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 1;
+   position: relative;
+}
+#wb_ShapePanel2
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 2;
+   position: relative;
+}
+#TableNotificaciones
+{
+   display: table;
+   width: 100%;
+   height: 831px;
+   z-index: 6;
+}
+#wb_ShapePanel3
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 3;
+   position: relative;
+}
+#wb_ShapePanel4
+{
+   display: inline-block;
+   width: 253px;
+   height: 215px;
+   z-index: 4;
+   position: relative;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridTituloAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridTituloAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridTituloAcademic
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridTituloAcademic .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_ShapePanel3
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel3
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel3_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_ShapePanel4
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel4
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel4_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContentNotificaciones
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridContentNotificaciones .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloAcademic
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#TableNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #C0C0C0;
+}
+#wb_TextTituloNotificaciones
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+}
+@media only screen and (min-width: 800px) and (max-width: 1023px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridTituloAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridTituloAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridTituloAcademic
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridTituloAcademic .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_ShapePanel3
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel3
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel3_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_ShapePanel4
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel4
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel4_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContentNotificaciones
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridContentNotificaciones .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloAcademic
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#TableNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+}
+@media only screen and (min-width: 768px) and (max-width: 799px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridTituloAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridTituloAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridTituloAcademic
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridTituloAcademic .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 25%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_ShapePanel3
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel3
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel3_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_ShapePanel4
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel4
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel4_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContentNotificaciones
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridContentNotificaciones .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloAcademic
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#TableNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+}
+@media only screen and (max-width: 767px)
+{
+body
+{
+   background-color: #FFFFFF;
+   background-image: none;
+}
+#wb_ShapePanel1
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel1
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel1_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_LayoutGridTituloAcademic
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridTituloAcademic
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridTituloAcademic
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridTituloAcademic .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridTituloAcademic > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_LayoutGrid1
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGrid1
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGrid1
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGrid1 .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGrid1 > .row > .col-1, #LayoutGrid1 > .row > .col-2, #LayoutGrid1 > .row > .col-3, #LayoutGrid1 > .row > .col-4
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGrid1 > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-2
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-3
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#LayoutGrid1 > .row > .col-4
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_ShapePanel2
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel2
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel2_text
+{
+   left: 3px;
+   top: 87px;
+   width: 246px;
+   height: 124px;
+}
+#wb_ShapePanel3
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel3
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel3_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_ShapePanel4
+{
+   width: 253px;
+   height: 215px;
+   visibility: visible;
+   display: inline-block;
+   margin: 0;
+}
+#ShapePanel4
+{
+   width: 248px;
+   height: 210px;
+}
+#ShapePanel4_text
+{
+   left: 3px;
+   top: 67px;
+   width: 246px;
+   height: 144px;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_LayoutGridContentNotificaciones
+{
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+#LayoutGridContentNotificaciones
+{
+   padding: 0px 15px 0px 15px;
+}
+#LayoutGridContentNotificaciones .row
+{
+   margin-right: -15px;
+   margin-left: -15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   padding-right: 15px;
+   padding-left: 15px;
+}
+#LayoutGridContentNotificaciones > .row > .col-1
+{
+   display: block;
+   width: 100%;
+   border: 0px solid #FFFFFF;
+   border-radius: 0px;
+   text-align: left;
+}
+#wb_TextTituloAcademic
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloAcademic
+{
+   margin: 0;
+   padding: 10px 0px 10px 0px;
+}
+#TableNotificaciones
+{
+   visibility: visible;
+   display: table;
+   font-size: 13px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   visibility: visible;
+   display: block;
+   font-size: 8px;
+   font-family: Arial;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   background-color: transparent;
+   background-image: none;
+}
+#wb_TextTituloNotificaciones
+{
+   margin: 0;
+   padding: 15px 0px 15px 0px;
+}
+}

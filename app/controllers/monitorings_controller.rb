@@ -20,6 +20,8 @@ class MonitoringsController < ApplicationController
 		@program = Student.obtenerCarrera(params[:student_id])
 		@school = Student.obtenerFacultad(params[:student_id])
 		@pago = Student.calcularDescuentoMatricula(params[:student_id])
+
+		Notification.crearNotificacion("Contrato", "Generar Contrato", "/students/" + params[:student_id].to_s + "monitorings#contracts", 1, params[:student_id].to_i)
 	end
 
 	def inscribir
@@ -68,7 +70,11 @@ class MonitoringsController < ApplicationController
 				@mensaje.push("Nuevo pago de matricula: " + current_student.matricula.to_s)
 			else
 				@mensaje.push("No se pudo descontar la matricula, contactese con la Universidad para mas informacion")
+				url = "students"
+				Notification.crearNotificacion("Descuento", "Inscribirse a Monitoria", "/students/" + params[:student_id].to_s + "monitorings#inscribir", 0, params[:student_id].to_i)
 			end
+		else
+			Notification.crearNotificacion("Inscripcion", "Inscribirse a Monitoria", "/students/" + params[:student_id].to_s + "monitorings#inscribir", 0, params[:student_id].to_i)
 		end
 	end
 end

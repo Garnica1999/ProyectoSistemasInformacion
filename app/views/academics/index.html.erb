@@ -1,5 +1,16 @@
 <% if teacher_signed_in? %>
 	<% if current_teacher.especialidad == "Administrador" %>
+	<div id="wb_LayoutGridTituloAcademic">
+        <div id="LayoutGridTituloAcademic">
+            <div class="row">
+                <div class="col-1">
+                    <div id="wb_TextTituloAcademic">
+                        <span style="color:#696969;font-family:'Segoe UI';font-size:32px;"><strong>SISTEMA ACADEMIC</strong></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 	<div id="wb_LayoutGrid1">
 	    <div id="LayoutGrid1">
 	        <div class="row">
@@ -42,6 +53,35 @@
 	        </div>
 	    </div>
 	</div>
+    <div id="wb_LayoutGridContentNotificaciones">
+        <div id="LayoutGridContentNotificaciones">
+            <div class="row">
+                <div class="col-1">
+                    <div id="wb_TextTituloNotificaciones">
+                        <span style="color:#696969;font-family:'Segoe UI';font-size:29px;">NOTIFICACIONES</span>
+                    </div>
+                    <table id="TableNotificaciones">
+                        <tr>
+                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Tipo</strong></span></td>
+                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Accion</strong></span></td>
+                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Provocado por</strong></span></td>
+                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>URL</strong></span></td>
+                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Marcar</strong></span></td>
+                        </tr>
+                        <% @notifications.each do |notificacion| %>
+                        	<tr>
+	                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong><%= notificacion.tipo %></strong></span></td>
+	                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong><%= notificacion.accion %></strong></span></td>
+	                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong><%= Student.obtenerNombre(notificacion.student_id.to_i) %></strong></span></td>
+	                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong><%= notificacion.url %></strong></span></td>
+	                            <td class="cell0"><span style="color:#696969;font-family:'Segoe UI';font-size:24px;line-height:32px;"><strong>Marcar</strong></span></td>
+	                        </tr>
+                        <% end %>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 	<% end %>
 <%else%>
 	<h1>Acceso Denegado, no tines permiso para entrar a esta pagina</h1>
